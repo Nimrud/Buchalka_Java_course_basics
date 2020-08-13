@@ -1,1 +1,1 @@
-# Buchalka_Java_course_basics
+Kurs Javy Tima Buchalki (Udemy) - powtórzenie podstaw języka
