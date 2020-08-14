@@ -1,1 +1,1 @@
-Kurs Javy Tima Buchalki (Udemy) - powtórzenie podstaw języka
+Powtórzenie podstaw Javy - kurs Tima Buchalki z Udemy
