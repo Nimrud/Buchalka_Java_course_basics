@@ -66,5 +66,11 @@ public class PrimitiveTypes {
         final double KILO_TO_POUND = 0.45359237;
         double kiloWeight = poundWeight * KILO_TO_POUND;
         System.out.println(poundWeight + " pounds equals to " + kiloWeight + " kilograms");
+
+        //znak z tabeli znaków Unicode (https://unicode-table.com/)
+        char newUnicodeChar = '\u0179';
+        System.out.println(newUnicodeChar);
+
+
     }
 }
