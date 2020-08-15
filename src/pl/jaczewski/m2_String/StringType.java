@@ -9,5 +9,10 @@ public class StringType {
         //możemy też dodawać znaki Unicode
         firstString = firstString + " \u00A92020";
         System.out.println(firstString);
+
+        //dodanie liczby do Stringa daje Stringa
+        String secondString = "50";
+        int someNumber = 10;
+        System.out.println("Wynik podania inta do Stringa to " + (secondString + someNumber));
     }
 }
