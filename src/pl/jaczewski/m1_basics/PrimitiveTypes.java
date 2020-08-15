@@ -70,7 +70,5 @@ public class PrimitiveTypes {
         //znak z tabeli znaków Unicode (https://unicode-table.com/)
         char newUnicodeChar = '\u0179';
         System.out.println(newUnicodeChar);
-
-
     }
 }
