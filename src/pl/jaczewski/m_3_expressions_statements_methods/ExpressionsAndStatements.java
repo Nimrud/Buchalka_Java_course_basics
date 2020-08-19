@@ -11,5 +11,23 @@ public class ExpressionsAndStatements {
         // statement (deklaracja) = expression + data type + semicolon at end
                 // double kilometers = 100 * 1.609
 
+        boolean gameOver = true;
+        int score = 5000;
+        int levelsCompleted = 41;
+        int bonus = 100;
+
+        if (gameOver == true) {
+            int finalScore = score + (levelsCompleted * bonus);
+            System.out.println("Your final score is " + finalScore + ".");
+        }
+
+        // zadanie, bez wykorzystania Metod
+        if (gameOver) {
+            score = 10000;
+            levelsCompleted = 8;
+            bonus = 200;
+            int finalSecondScore = score + (levelsCompleted * bonus);
+            System.out.println("Your second score is " + finalSecondScore + ".");
+        }
     }
 }
