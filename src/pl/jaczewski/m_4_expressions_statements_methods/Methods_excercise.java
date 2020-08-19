@@ -1,4 +1,4 @@
-package pl.jaczewski.m_3_expressions_statements_methods;
+package pl.jaczewski.m_4_expressions_statements_methods;
 
 // Zadanie
 public class Methods_excercise {

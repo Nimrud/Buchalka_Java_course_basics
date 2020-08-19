@@ -1,4 +1,4 @@
-package pl.jaczewski.m_3_expressions_statements_methods;
+package pl.jaczewski.m_4_expressions_statements_methods;
 
 public class ExpressionsAndStatements {
     public static void main(String[] args) {
