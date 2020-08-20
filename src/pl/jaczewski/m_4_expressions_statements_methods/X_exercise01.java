@@ -1,7 +1,7 @@
 package pl.jaczewski.m_4_expressions_statements_methods;
 
 // zadanie 'Speed Converter'
-public class X_excercise01 {
+public class X_exercise01 {
 
     public static long toMilesPerHour (double kilometersPerHour) {
         if (kilometersPerHour > 0) {
