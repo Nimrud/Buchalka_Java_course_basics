@@ -1,6 +1,6 @@
 package pl.jaczewski.m_4_expressions_statements_methods;
 
-public class X_excercise04 {
+public class X_exercise04 {
     public static boolean isLeapYear (int year){
         if (year < 1 || year > 9999) {
             return false;

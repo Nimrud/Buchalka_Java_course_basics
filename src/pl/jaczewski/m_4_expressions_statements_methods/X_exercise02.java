@@ -1,6 +1,6 @@
 package pl.jaczewski.m_4_expressions_statements_methods;
 
-public class X_excercise02 {
+public class X_exercise02 {
 
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
         if (kiloBytes < 0) {
