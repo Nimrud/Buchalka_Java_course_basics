@@ -34,5 +34,12 @@ public class X_main {
         // Zadanie 9
         System.out.print("Zadanie 9: ");
         X_exercise09.printYearsAndDays(561609);
+
+        // Zadanie 10
+        System.out.print("Zadanie 10: ");
+        X_exercise10.printEqual(1, 2, 3);
+
+        // Zadanie 11
+        System.out.println("Zadanie 11: " + X_exercise11.isCatPlaying(false, 35));
     }
 }
