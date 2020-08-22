@@ -1,4 +1,4 @@
-package pl.jaczewski.m_4_expressions_statements_methods;
+package pl.jaczewski.m4_expressions_statements_methods;
 
 public class X_exercise06 {
     public static boolean hasEqualSum (int firstValue, int secondValue, int thirdValue) {

@@ -1,4 +1,4 @@
-package pl.jaczewski.m_4_expressions_statements_methods;
+package pl.jaczewski.m4_expressions_statements_methods;
 
 // a number is 'teen' if it's in range of 13-19
 public class X_exercise07 {
