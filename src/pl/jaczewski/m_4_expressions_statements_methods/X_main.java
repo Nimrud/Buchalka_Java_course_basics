@@ -26,5 +26,13 @@ public class X_main {
         // Zadanie 7
         System.out.println("Zadanie 7a: " + X_exercise07.hasTeen(23, 25,46));
         System.out.println("Zadanie 7b: " + X_exercise07.isTeen(15));
+
+        // Zadanie 8
+        System.out.println("Zadanie 8a: " + X_exercise08.area(12));
+        System.out.println("Zadanie 8b: " + X_exercise08.area(8, 10));
+
+        // Zadanie 9
+        System.out.print("Zadanie 9: ");
+        X_exercise09.printYearsAndDays(561609);
     }
 }
