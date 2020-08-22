@@ -1,6 +1,8 @@
-package pl.jaczewski.m_4_expressions_statements_methods;
+package pl.jaczewski.m4_expressions_statements_methods;
 
 // Klasa do testowania poprawności rozwiązań zadań do samodzielnego wykonania
+
+import pl.jaczewski.m5_control_flow_statements.X_exercise12;
 
 public class X_main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package pl.jaczewski.m_4_expressions_statements_methods;
+package pl.jaczewski.m4_expressions_statements_methods;
 
 // zadanie 'Speed Converter'
 public class X_exercise01 {
