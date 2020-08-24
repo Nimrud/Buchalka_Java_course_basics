@@ -20,31 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/Switch_challenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/Switch_statement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/For_statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/For_statement_challenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/ExpressionsAndStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/ExpressionsAndStatements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/Method_Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/Method_Overloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/Methods_Overloading_challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/Methods_Overloading_challenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/Methods_excercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/Methods_excercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/Methods_with_return.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/Methods_with_return.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_exercise1_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_exercise1_example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m_4_expressions_statements_methods/X_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/X_main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,13 +58,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="proofread" />
   </component>
-  <component name="RunManager" selected="Application.X_main (1)">
-    <configuration name="Method_Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m4_expressions_statements_methods.Method_Overloading" />
+  <component name="RunManager" selected="Application.For_statement">
+    <configuration name="For_statement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.For_statement" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m4_expressions_statements_methods.*" />
+          <option name="PATTERN" value="pl.jaczewski.m5_control_flow_statements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods_Overloading_challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m4_expressions_statements_methods.Methods_Overloading_challenge" />
+    <configuration name="For_statement_challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.For_statement_challenge" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m4_expressions_statements_methods.*" />
+          <option name="PATTERN" value="pl.jaczewski.m5_control_flow_statements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,24 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.For_statement" />
+        <item itemvalue="Application.For_statement_challenge" />
         <item itemvalue="Application.X_main (1)" />
         <item itemvalue="Application.Switch_statement" />
         <item itemvalue="Application.X_main" />
-        <item itemvalue="Application.Methods_Overloading_challenge" />
-        <item itemvalue="Application.Method_Overloading" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +164,8 @@
       <workItem from="1597862828423" duration="17183000" />
       <workItem from="1598020948047" duration="4846000" />
       <workItem from="1598027085352" duration="1687000" />
-      <workItem from="1598064124217" duration="12716000" />
+      <workItem from="1598064124217" duration="13243000" />
+      <workItem from="1598277556695" duration="7223000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
       <created>1597365614205</created>
@@ -319,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598072058094</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="control flow statements: instrukcja switch + zadanie 12 i 13">
+      <created>1598079009752</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598079009752</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +344,8 @@
     <MESSAGE value="metody - overloading - challenge" />
     <MESSAGE value="metody - zadanie 8 i 9" />
     <MESSAGE value="metody - zadanie 10 i 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="metody - zadanie 10 i 11" />
+    <MESSAGE value="control flow statements: instrukcja switch + zadanie 12 i 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="control flow statements: instrukcja switch + zadanie 12 i 13" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -367,42 +356,42 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1597524454080" />
-    <state x="270" y="61" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1598072058028">
+    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1598079009663">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="270" y="61" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598072058028" />
-    <state width="959" height="280" key="GridCell.Tab.0.bottom" timestamp="1598077947010">
+    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598079009663" />
+    <state width="959" height="272" key="GridCell.Tab.0.bottom" timestamp="1598283993498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="280" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598077947010" />
-    <state width="959" height="280" key="GridCell.Tab.0.center" timestamp="1598077947010">
+    <state width="959" height="272" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598283993498" />
+    <state width="959" height="272" key="GridCell.Tab.0.center" timestamp="1598283993498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="280" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598077947010" />
-    <state width="959" height="280" key="GridCell.Tab.0.left" timestamp="1598077947010">
+    <state width="959" height="272" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598283993498" />
+    <state width="959" height="272" key="GridCell.Tab.0.left" timestamp="1598283993492">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="280" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598077947010" />
-    <state width="959" height="280" key="GridCell.Tab.0.right" timestamp="1598077947010">
+    <state width="959" height="272" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598283993492" />
+    <state width="959" height="272" key="GridCell.Tab.0.right" timestamp="1598283993498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="280" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598077947010" />
-    <state width="1096" height="340" key="GridCell.Tab.1.bottom" timestamp="1598065330356">
+    <state width="959" height="272" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598283993498" />
+    <state width="1096" height="340" key="GridCell.Tab.1.bottom" timestamp="1598079282480">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1096" height="340" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598065330356" />
-    <state width="1096" height="340" key="GridCell.Tab.1.center" timestamp="1598065330355">
+    <state width="1096" height="340" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598079282480" />
+    <state width="1096" height="340" key="GridCell.Tab.1.center" timestamp="1598079282479">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1096" height="340" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598065330355" />
-    <state width="1096" height="340" key="GridCell.Tab.1.left" timestamp="1598065330355">
+    <state width="1096" height="340" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598079282479" />
+    <state width="1096" height="340" key="GridCell.Tab.1.left" timestamp="1598079282479">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1096" height="340" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598065330355" />
-    <state width="1096" height="340" key="GridCell.Tab.1.right" timestamp="1598065330356">
+    <state width="1096" height="340" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598079282479" />
+    <state width="1096" height="340" key="GridCell.Tab.1.right" timestamp="1598079282480">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1096" height="340" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598065330356" />
+    <state width="1096" height="340" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598079282480" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1597368388283">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -411,10 +400,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598072059335">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598079011205">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598072059335" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598079011205" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
