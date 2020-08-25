@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/For_statement_challenge_two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/While_statement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_Exercise14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/While_statement_challenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,22 +57,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="proofread" />
   </component>
-  <component name="RunManager" selected="Application.While_statement">
+  <component name="RunManager" selected="Application.While_statement_challenge">
     <configuration name="For_statement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.For_statement" />
-      <module name="Buchalka_Java_course_basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m5_control_flow_statements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="For_statement_challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.For_statement_challenge" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
@@ -113,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="While_statement_challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.While_statement_challenge" />
+      <module name="Buchalka_Java_course_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jaczewski.m5_control_flow_statements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="X_main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.X_main" />
       <module name="Buchalka_Java_course_basics" />
@@ -139,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.While_statement_challenge" />
         <item itemvalue="Application.While_statement" />
         <item itemvalue="Application.X_main (1)" />
         <item itemvalue="Application.For_statement_challenge_two" />
         <item itemvalue="Application.For_statement" />
-        <item itemvalue="Application.For_statement_challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +163,7 @@
       <workItem from="1598027085352" duration="1687000" />
       <workItem from="1598064124217" duration="13243000" />
       <workItem from="1598277556695" duration="8098000" />
-      <workItem from="1598369468881" duration="8730000" />
+      <workItem from="1598369468881" duration="11484000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
       <created>1597365614205</created>
@@ -315,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598285175756</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="control flow statements: instrukcja 'for' (2 zadania) + instrukcja 'while' (1 zadanie)">
+      <created>1598380715235</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598380715235</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +358,8 @@
     <MESSAGE value="metody - zadanie 10 i 11" />
     <MESSAGE value="control flow statements: instrukcja switch + zadanie 12 i 13" />
     <MESSAGE value="control flow statements: instrukcja 'for' (w tym jedno zadanie zrobione bardziej zaawansowaną metodą z wykorzystaniem BigDecimal - z własnej inicjatywy :-)" />
-    <option name="LAST_COMMIT_MESSAGE" value="control flow statements: instrukcja 'for' (w tym jedno zadanie zrobione bardziej zaawansowaną metodą z wykorzystaniem BigDecimal - z własnej inicjatywy :-)" />
+    <MESSAGE value="control flow statements: instrukcja 'for' (2 zadania) + instrukcja 'while' (1 zadanie)" />
+    <option name="LAST_COMMIT_MESSAGE" value="control flow statements: instrukcja 'for' (2 zadania) + instrukcja 'while' (1 zadanie)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -365,26 +370,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1597524454080" />
-    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1598285175592">
+    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1598380715056">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598285175592" />
-    <state width="959" height="272" key="GridCell.Tab.0.bottom" timestamp="1598379179520">
+    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598380715056" />
+    <state width="959" height="272" key="GridCell.Tab.0.bottom" timestamp="1598383268774">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="272" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598379179520" />
-    <state width="959" height="272" key="GridCell.Tab.0.center" timestamp="1598379179519">
+    <state width="959" height="272" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598383268774" />
+    <state width="959" height="272" key="GridCell.Tab.0.center" timestamp="1598383268774">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="272" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598379179519" />
-    <state width="959" height="272" key="GridCell.Tab.0.left" timestamp="1598379179519">
+    <state width="959" height="272" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598383268774" />
+    <state width="959" height="272" key="GridCell.Tab.0.left" timestamp="1598383268773">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="272" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598379179518" />
-    <state width="959" height="272" key="GridCell.Tab.0.right" timestamp="1598379179519">
+    <state width="959" height="272" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598383268773" />
+    <state width="959" height="272" key="GridCell.Tab.0.right" timestamp="1598383268774">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="272" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598379179519" />
+    <state width="959" height="272" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598383268774" />
     <state width="1096" height="340" key="GridCell.Tab.1.bottom" timestamp="1598079282480">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -409,10 +414,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598285178337">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598380716765">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598285178337" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598380716765" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
