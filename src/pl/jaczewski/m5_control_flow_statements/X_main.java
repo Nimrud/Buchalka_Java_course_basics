@@ -14,5 +14,8 @@ public class X_main {
         // Zadanie 13
         System.out.println("Zadanie 13a: " + X_exercise13.isLeapYear(2000));
         System.out.println("Zadanie 13b: " + X_exercise13.getDaysInMonth(2, 2018));
+
+        // Zadanie 14
+        System.out.println("Zadanie 14: " + X_Exercise14.sumOdd(100, 1000));
     }
 }
