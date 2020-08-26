@@ -1,6 +1,6 @@
 package pl.jaczewski.m5_control_flow_statements;
 
-public class X_Exercise14 {
+public class X_exercise14 {
 
     public static boolean isOdd (int number) {
         if (number > 0) {
