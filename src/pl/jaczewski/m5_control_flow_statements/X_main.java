@@ -53,5 +53,9 @@ public class X_main {
         // Zadanie 25
         System.out.println("Zadanie 25: " +X_exercise25.getLargestPrime(45));
 
+        // Zadanie 26
+        System.out.println("Zadanie 26:");
+        X_exercise26.printSquareStar(10);
+
     }
 }
