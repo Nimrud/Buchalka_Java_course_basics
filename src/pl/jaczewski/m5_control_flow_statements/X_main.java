@@ -35,5 +35,23 @@ public class X_main {
 
         // Zadanie 20
         System.out.println("Zadanie 20: " + X_exercise20.getGreatestCommonDivisor(1010, 10));
+
+        // Zadanie 21
+        System.out.println("Zadanie 21:");
+        X_exercise21.printFactors(32);
+
+        // Zadanie 22
+        System.out.println("Zadanie 22: " + X_exercise22.isPerfectNumber(28));
+
+        // Zadanie 23
+        System.out.println("Zadanie 23: ");
+        X_exercise23.numberToWords(101);
+
+        // Zadanie 24
+        System.out.println("Zadanie 24: " + X_exercise24.canPack(2,1,5));
+
+        // Zadanie 25
+        System.out.println("Zadanie 25: " +X_exercise25.getLargestPrime(45));
+
     }
 }

@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/Parsing_Values_from_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_Exercise14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
@@ -64,9 +63,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="proofread" />
   </component>
-  <component name="RunManager" selected="Application.X_main (1)">
-    <configuration name="For_statement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.For_statement" />
+  <component name="RunManager" selected="Application.X_main">
+    <configuration name="For_statement_challenge_two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.For_statement_challenge_two" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="For_statement_challenge_two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.For_statement_challenge_two" />
+    <configuration name="Parsing_Values_from_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.Parsing_Values_from_String" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
@@ -130,26 +129,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.X_main (1)" />
+        <item itemvalue="Application.X_main" />
+        <item itemvalue="Application.Parsing_Values_from_String" />
         <item itemvalue="Application.While_statement_challenge" />
         <item itemvalue="Application.While_statement" />
         <item itemvalue="Application.For_statement_challenge_two" />
-        <item itemvalue="Application.For_statement" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +170,8 @@
       <workItem from="1598064124217" duration="13243000" />
       <workItem from="1598277556695" duration="8098000" />
       <workItem from="1598369468881" duration="11717000" />
-      <workItem from="1598423057354" duration="10165000" />
+      <workItem from="1598423057354" duration="10770000" />
+      <workItem from="1598477945993" duration="30224000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
       <created>1597365614205</created>
@@ -336,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598383579308</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="control flow statements: zadania 15, 16, 17, 18, 19 i 20">
+      <created>1598434218646</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598434218646</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +382,8 @@
     <MESSAGE value="control flow statements: instrukcja 'for' (w tym jedno zadanie zrobione bardziej zaawansowaną metodą z wykorzystaniem BigDecimal - z własnej inicjatywy :-)" />
     <MESSAGE value="control flow statements: instrukcja 'for' (2 zadania) + instrukcja 'while' (1 zadanie)" />
     <MESSAGE value="control flow statements: instrukcja 'while' (1 zadanie)" />
-    <option name="LAST_COMMIT_MESSAGE" value="control flow statements: instrukcja 'while' (1 zadanie)" />
+    <MESSAGE value="control flow statements: zadania 15, 16, 17, 18, 19 i 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="control flow statements: zadania 15, 16, 17, 18, 19 i 20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -388,42 +394,42 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1597524454080" />
-    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1598383579231">
+    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1598434218495">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598383579231" />
-    <state width="959" height="273" key="GridCell.Tab.0.bottom" timestamp="1598432577556">
+    <state x="617" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598434218495" />
+    <state width="959" height="275" key="GridCell.Tab.0.bottom" timestamp="1598516856020">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="273" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598432577556" />
-    <state width="959" height="273" key="GridCell.Tab.0.center" timestamp="1598432577556">
+    <state width="959" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598516856020" />
+    <state width="959" height="275" key="GridCell.Tab.0.center" timestamp="1598516856020">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="273" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598432577556" />
-    <state width="959" height="273" key="GridCell.Tab.0.left" timestamp="1598432577555">
+    <state width="959" height="275" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598516856020" />
+    <state width="959" height="275" key="GridCell.Tab.0.left" timestamp="1598516856020">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="273" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598432577555" />
-    <state width="959" height="273" key="GridCell.Tab.0.right" timestamp="1598432577556">
+    <state width="959" height="275" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598516856020" />
+    <state width="959" height="275" key="GridCell.Tab.0.right" timestamp="1598516856020">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="273" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598432577556" />
-    <state width="959" height="336" key="GridCell.Tab.1.bottom" timestamp="1598427540895">
+    <state width="959" height="275" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598516856020" />
+    <state width="959" height="335" key="GridCell.Tab.1.bottom" timestamp="1598516845798">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="336" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598427540895" />
-    <state width="959" height="336" key="GridCell.Tab.1.center" timestamp="1598427540894">
+    <state width="959" height="335" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598516845798" />
+    <state width="959" height="335" key="GridCell.Tab.1.center" timestamp="1598516845798">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="336" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598427540894" />
-    <state width="959" height="336" key="GridCell.Tab.1.left" timestamp="1598427540894">
+    <state width="959" height="335" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598516845798" />
+    <state width="959" height="335" key="GridCell.Tab.1.left" timestamp="1598516845798">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="336" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598427540894" />
-    <state width="959" height="336" key="GridCell.Tab.1.right" timestamp="1598427540894">
+    <state width="959" height="335" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598516845798" />
+    <state width="959" height="335" key="GridCell.Tab.1.right" timestamp="1598516845798">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="336" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598427540894" />
+    <state width="959" height="335" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598516845798" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1597368388283">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -432,10 +438,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598383580677">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598434220576">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598383580677" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598434220576" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -461,12 +467,12 @@
           <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pl/jaczewski/m5_control_flow_statements/X_exercise16.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Buchalka_Java_course_basics$X_main.ic" NAME="X_main Coverage Results" MODIFIED="1598502930811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.jaczewski.m5_control_flow_statements.*</FILTER>
+    </SUITE>
   </component>
 </project>
