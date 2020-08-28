@@ -56,6 +56,17 @@ public class X_main {
         // Zadanie 26
         System.out.println("Zadanie 26:");
         X_exercise26.printSquareStar(10);
+        System.out.println();
+
+        // Zadanie 27
+//        System.out.println("Zadanie 27:");
+//        X_exercise27.inputThenPrintSumAndAverage();
+
+        // Zadanie 28
+        System.out.println("Zadanie 28a: " + X_exercise28.getBucketCount(2.75,3.25, 2.5, 1));
+        System.out.println("Zadanie 28b: " + X_exercise28.getBucketCount(7.25,4.3, 2.35));
+        System.out.println("Zadanie 28c: " + X_exercise28.getBucketCount(3.26,0.75));
+
 
     }
 }
