@@ -6,7 +6,6 @@ public class X_main {
         // Switch challenge
         Switch_challenge.printDayOfTheWeek(8);
 
-
         // Zadanie 12
         System.out.print("Zadanie 12: ");
         X_exercise12.printNumberInWord(10);
@@ -59,8 +58,8 @@ public class X_main {
         System.out.println();
 
         // Zadanie 27
-//        System.out.println("Zadanie 27:");
-//        X_exercise27.inputThenPrintSumAndAverage();
+        System.out.println("Zadanie 27:");
+        X_exercise27.inputThenPrintSumAndAverage();
 
         // Zadanie 28
         System.out.println("Zadanie 28a: " + X_exercise28.getBucketCount(2.75,3.25, 2.5, 1));
