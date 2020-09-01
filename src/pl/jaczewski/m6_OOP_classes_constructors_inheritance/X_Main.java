@@ -1,5 +1,7 @@
 package pl.jaczewski.m6_OOP_classes_constructors_inheritance;
 
+import java.awt.*;
+
 public class X_Main {
     public static void main(String[] args) {
 
@@ -66,5 +68,24 @@ public class X_Main {
         Classes_constructors_challenge_VipCustomer vc2 = new Classes_constructors_challenge_VipCustomer("Marek", "marek@op.pl");
         System.out.println("email: " + vc2.getEmail() +", name: " + vc2.getName() + ", limit: " + vc2.getLimit());
 
+        // Zadanie 31
+        System.out.println("Zadanie 31: ");
+        X_exercise31_Wall wall = new X_exercise31_Wall(5, 4);
+        System.out.println("area= " + wall.getArea());
+        wall.setHeight(-1.5);
+        System.out.println("width= " + wall.getWidth());
+        System.out.println("height= " + wall.getHeight());
+        System.out.println("area= " + wall.getArea());
+        System.out.println();
+
+        // Zadanie 32
+        System.out.println("Zadanie 32:");
+        X_exercise32_Point first = new X_exercise32_Point(6, 5);
+        X_exercise32_Point second = new X_exercise32_Point(3, 1);
+        System.out.println("distance(0,0)= " + first.distance());
+        System.out.println("distance(second)= " + first.distance(second));
+        System.out.println("distance(2,2)= " + first.distance(2, 2));
+        X_exercise32_Point point = new X_exercise32_Point();
+        System.out.println("distance()= " + point.distance());
     }
 }
