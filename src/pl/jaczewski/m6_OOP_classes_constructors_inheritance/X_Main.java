@@ -1,7 +1,5 @@
 package pl.jaczewski.m6_OOP_classes_constructors_inheritance;
 
-import java.awt.*;
-
 public class X_Main {
     public static void main(String[] args) {
 
@@ -87,5 +85,35 @@ public class X_Main {
         System.out.println("distance(2,2)= " + first.distance(2, 2));
         X_exercise32_Point point = new X_exercise32_Point();
         System.out.println("distance()= " + point.distance());
+        System.out.println();
+
+        // Zadanie 33
+        System.out.println("Zadanie 33:");
+        X_exercise33b_Carpet carpet = new X_exercise33b_Carpet(3.5);
+        X_exercise33a_Floor floor = new X_exercise33a_Floor(2.75, 4.0);
+        X_exercise33c_Calculator calc = new X_exercise33c_Calculator(floor, carpet);
+        System.out.println("total= " + calc.getTotalCost());
+        carpet = new X_exercise33b_Carpet(1.5);
+        floor = new X_exercise33a_Floor(5.4, 4.5);
+        calc = new X_exercise33c_Calculator(floor, carpet);
+        System.out.println("total= " + calc.getTotalCost());
+        System.out.println();
+
+        // Zadanie 34
+        System.out.println("Zadanie 34:");
+        X_exercise34_ComplexNumber one = new X_exercise34_ComplexNumber(1.0, 1.0);
+        X_exercise34_ComplexNumber number = new X_exercise34_ComplexNumber(2.5, -1.5);
+        one.add(1,1);
+        System.out.println("one.real= " + one.getReal());
+        System.out.println("one.imaginary= " + one.getImaginary());
+        one.subtract(number);
+        System.out.println("one.real= " + one.getReal());
+        System.out.println("one.imaginary= " + one.getImaginary());
+        number.subtract(one);
+        System.out.println("number.real= " + number.getReal());
+        System.out.println("number.imaginary= " + number.getImaginary());
+        System.out.println();
+
+
     }
 }
