@@ -5,14 +5,14 @@ public class Inheritance_challenge_Vehicle {
     private int engineType;
     private int numberOfGears;
     private String steeringMechanism;
-    private double speed;
+    private double maxSpeed;
     private String name;
 
-    public Inheritance_challenge_Vehicle(int engineType, int numberOfGears, String steeringMechanism, double speed, String name) {
+    public Inheritance_challenge_Vehicle(int engineType, int numberOfGears, String steeringMechanism, double maxSpeed, String name) {
         this.engineType = engineType;
         this.numberOfGears = numberOfGears;
         this.steeringMechanism = steeringMechanism;
-        this.speed = speed;
+        this.maxSpeed = maxSpeed;
         this.name = name;
     }
 
@@ -43,12 +43,12 @@ public class Inheritance_challenge_Vehicle {
         return this;
     }
 
-    public double getSpeed() {
-        return speed;
+    public double getMaxSpeed() {
+        return maxSpeed;
     }
 
-    public Inheritance_challenge_Vehicle setSpeed(double speed) {
-        this.speed = speed;
+    public Inheritance_challenge_Vehicle setMaxSpeed(double maxSpeed) {
+        this.maxSpeed = maxSpeed;
         return this;
     }
 

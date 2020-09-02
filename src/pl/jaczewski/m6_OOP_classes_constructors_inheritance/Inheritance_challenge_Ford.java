@@ -4,8 +4,8 @@ public class Inheritance_challenge_Ford extends Inheritance_challenge_Car{
 
     private double price;
 
-    public Inheritance_challenge_Ford(int engine, int doors, boolean roof, int numberOfGears, double speed, String name, double price) {
-        super(engine, doors, roof, numberOfGears, speed, name);
+    public Inheritance_challenge_Ford(int engine, int doors, boolean roof, int numberOfGears, double maxSpeed, double price) {
+        super(engine, doors, roof, numberOfGears, maxSpeed, "Ford");
         this.price = price;
     }
 
@@ -17,4 +17,6 @@ public class Inheritance_challenge_Ford extends Inheritance_challenge_Car{
         this.price = price;
         return this;
     }
+
+
 }

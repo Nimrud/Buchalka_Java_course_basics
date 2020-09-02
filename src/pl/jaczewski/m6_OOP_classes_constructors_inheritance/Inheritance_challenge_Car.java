@@ -6,8 +6,8 @@ public class Inheritance_challenge_Car extends Inheritance_challenge_Vehicle{
     private int wheels;
     private boolean roof;
 
-    public Inheritance_challenge_Car(int engine, int doors, boolean roof, int numberOfGears, double speed, String name) {
-        super(engine, numberOfGears, "steeringWheel", speed, name);
+    public Inheritance_challenge_Car(int engine, int doors, boolean roof, int numberOfGears, double maxSpeed, String name) {
+        super(engine, numberOfGears, "steeringWheel", maxSpeed, name);
         this.doors = doors;
         this.roof = roof;
         this.wheels = 4;
@@ -15,6 +15,9 @@ public class Inheritance_challenge_Car extends Inheritance_challenge_Vehicle{
 
     @Override
     public void move(double speed) {
+        if (speed > super.getMaxSpeed()){
+            speed = super.getMaxSpeed();
+        }
         System.out.println("Car has driven at " + speed + " km/h.");
     }
 
