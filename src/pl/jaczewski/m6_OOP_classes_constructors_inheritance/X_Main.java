@@ -1,5 +1,7 @@
 package pl.jaczewski.m6_OOP_classes_constructors_inheritance;
 
+import java.awt.*;
+
 public class X_Main {
     public static void main(String[] args) {
 
@@ -114,6 +116,36 @@ public class X_Main {
         System.out.println("number.imaginary= " + number.getImaginary());
         System.out.println();
 
+        // Inheritance challenge
+        Inheritance_challenge_Ford ford1 = new Inheritance_challenge_Ford(120, 4, true, 6, 180, 49.999);
+        System.out.println(ford1.getSteeringMechanism());
+        ford1.move(420);
+        ford1.stop();
+        System.out.println();
 
+        // Zadanie 35:
+        System.out.println("Zadanie 35:");
+        X_exercise35a_Circle circle = new X_exercise35a_Circle(3.75);
+        System.out.println("circle.radius= " + circle.getRadius());
+        System.out.println("circle.area= " + circle.getArea());
+        X_exercise35b_Cylinder cylinder = new X_exercise35b_Cylinder(5.55, 7.25);
+        System.out.println("cylinder.radius= " + cylinder.getRadius());
+        System.out.println("cylinder.height= " + cylinder.getHeight());
+        System.out.println("cylinder.area= " + cylinder.getArea());
+        System.out.println("cylinder.volume= " + cylinder.getVolume());
+        System.out.println();
+
+        // Zadanie 36:
+        System.out.println("Zadanie 36:");
+        X_exercise36a_Rectangle rectangle = new X_exercise36a_Rectangle(5, 10);
+        System.out.println("rectangle.width= " + rectangle.getWidth());
+        System.out.println("rectangle.length= " + rectangle.getLength());
+        System.out.println("rectangle.area= " + rectangle.getArea());
+        X_exercise36b_Cuboid cuboid = new X_exercise36b_Cuboid(5,10,5);
+        System.out.println("cuboid.width= " + cuboid.getWidth());
+        System.out.println("cuboid.length= " + cuboid.getLength());
+        System.out.println("cuboid.area= " + cuboid.getArea());
+        System.out.println("cuboid.height= " + cuboid.getHeight());
+        System.out.println("cuboid.volume= " + cuboid.getVolume());
     }
 }
