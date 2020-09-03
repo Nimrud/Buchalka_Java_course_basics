@@ -12,5 +12,15 @@ public class Main {
         System.out.println("This is a table for " + livingRoom.getTable().getNumberOfSeats() + " people.");
         livingRoom.painting.displayPainting();
         livingRoom.painting.stealPainting();
+        System.out.println();
+
+        // Encapsulation challenge
+        System.out.println("Encapsulation challenge:");
+        Encapsulation_challenge_Printer printer = new Encapsulation_challenge_Printer(-10, true);
+        System.out.println(printer.isDuplex());
+        System.out.println(printer.getTonerLevel());
+        printer.addToner(25);
+        printer.pagePrinting(11);
+
     }
 }
