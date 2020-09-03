@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Composition_challenge_Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Composition_challenge_chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Composition_challenge_painting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Composition_challenge_table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Encapsulation_challenge_Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +172,7 @@
       <workItem from="1598705250081" duration="7672000" />
       <workItem from="1598875667764" duration="6974000" />
       <workItem from="1598961923075" duration="6990000" />
-      <workItem from="1599065011411" duration="10023000" />
+      <workItem from="1599065011411" duration="14492000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
       <created>1597365614205</created>
@@ -415,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599087304905</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="OOP: composition (challenge)">
+      <created>1599097707367</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1599097707367</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metody - bez zwracania wartości i ze zwracaniem" />
     <MESSAGE value="metody - zadanie do rozwiązania" />
     <MESSAGE value="metody - zadanie do rozwiązania (2)" />
     <MESSAGE value="metody - zadanie 01" />
@@ -459,17 +462,18 @@
     <MESSAGE value="OOP: constructors (2 kolejne zadania)" />
     <MESSAGE value="OOP: inheritance, overriding, 'super', static vs. non-static, challenge" />
     <MESSAGE value="OOP: inheritance (2 zadania)" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP: inheritance (2 zadania)" />
+    <MESSAGE value="OOP: composition (challenge)" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP: composition (challenge)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1223" y="237" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1599097605527">
+    <state x="1223" y="237" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1599139238567">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1223" y="237" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599097605527" />
+    <state x="1223" y="237" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599139238567" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599084119713">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -478,30 +482,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599087304825">
+    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599097707299">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599087304825" />
+    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599097707299" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="959" height="254" key="GridCell.Tab.0.bottom" timestamp="1599097097014">
+    <state width="959" height="254" key="GridCell.Tab.0.bottom" timestamp="1599150047845">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599097097014" />
-    <state width="959" height="254" key="GridCell.Tab.0.center" timestamp="1599097097014">
+    <state width="959" height="254" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047845" />
+    <state width="959" height="254" key="GridCell.Tab.0.center" timestamp="1599150047844">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599097097014" />
-    <state width="959" height="254" key="GridCell.Tab.0.left" timestamp="1599097097013">
+    <state width="959" height="254" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047844" />
+    <state width="959" height="254" key="GridCell.Tab.0.left" timestamp="1599150047844">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599097097013" />
-    <state width="959" height="254" key="GridCell.Tab.0.right" timestamp="1599097097014">
+    <state width="959" height="254" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047844" />
+    <state width="959" height="254" key="GridCell.Tab.0.right" timestamp="1599150047845">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599097097014" />
+    <state width="959" height="254" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047845" />
     <state width="959" height="335" key="GridCell.Tab.1.bottom" timestamp="1598720214731">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -526,10 +530,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599087306303">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599097709341">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599087306303" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599097709341" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
