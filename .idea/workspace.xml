@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Encapsulation_challenge_Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/OOP_challenge_Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/OOP_challenge_Burger_Deluxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/OOP_challenge_Burger_Healthy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Polymorphism_challenge_Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Composition_challenge_Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Composition_challenge_Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Encapsulation_challenge_Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Encapsulation_challenge_Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m7_OOP_composition_encapsulation_polymorphism/Main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
@@ -72,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scanner_input_challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m5_control_flow_statements.Scanner_input_challenge" />
+    <configuration name="Polymorphism_challenge_Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m7_OOP_composition_encapsulation_polymorphism.Polymorphism_challenge_Car" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m5_control_flow_statements.*" />
+          <option name="PATTERN" value="pl.jaczewski.m7_OOP_composition_encapsulation_polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +143,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Polymorphism_challenge_Car" />
         <item itemvalue="Application.X_Main" />
         <item itemvalue="Application.X_main" />
         <item itemvalue="Application.Scanner_input_challenge2" />
-        <item itemvalue="Application.Scanner_input_challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +177,7 @@
       <workItem from="1598705250081" duration="7672000" />
       <workItem from="1598875667764" duration="6974000" />
       <workItem from="1598961923075" duration="6990000" />
-      <workItem from="1599065011411" duration="14492000" />
+      <workItem from="1599065011411" duration="30638000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
       <created>1597365614205</created>
@@ -419,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599097707367</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="OOP: encapsulation (challenge)">
+      <created>1599150554119</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1599150554119</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +450,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metody - zadanie do rozwiązania" />
     <MESSAGE value="metody - zadanie do rozwiązania (2)" />
     <MESSAGE value="metody - zadanie 01" />
     <MESSAGE value="metody - zadanie 02, 03, 04" />
@@ -463,49 +474,50 @@
     <MESSAGE value="OOP: inheritance, overriding, 'super', static vs. non-static, challenge" />
     <MESSAGE value="OOP: inheritance (2 zadania)" />
     <MESSAGE value="OOP: composition (challenge)" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP: composition (challenge)" />
+    <MESSAGE value="OOP: encapsulation (challenge)" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP: encapsulation (challenge)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1223" y="237" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1599139238567">
+    <state x="1326" y="160" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1599173754130">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1223" y="237" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599139238567" />
-    <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599084119713">
+    <state x="1326" y="160" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599173754130" />
+    <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599172575215">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599084119713" />
+    <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599172575215" />
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598630070756">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599097707299">
+    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599150554030">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599097707299" />
+    <state x="201" y="71" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599150554030" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="959" height="254" key="GridCell.Tab.0.bottom" timestamp="1599150047845">
+    <state width="1807" height="326" key="GridCell.Tab.0.bottom" timestamp="1599173831651">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047845" />
-    <state width="959" height="254" key="GridCell.Tab.0.center" timestamp="1599150047844">
+    <state width="1807" height="326" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599173831651" />
+    <state width="1807" height="326" key="GridCell.Tab.0.center" timestamp="1599173831651">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047844" />
-    <state width="959" height="254" key="GridCell.Tab.0.left" timestamp="1599150047844">
+    <state width="1807" height="326" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599173831651" />
+    <state width="1807" height="326" key="GridCell.Tab.0.left" timestamp="1599173831649">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047844" />
-    <state width="959" height="254" key="GridCell.Tab.0.right" timestamp="1599150047845">
+    <state width="1807" height="326" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599173831649" />
+    <state width="1807" height="326" key="GridCell.Tab.0.right" timestamp="1599173831651">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="959" height="254" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599150047845" />
+    <state width="1807" height="326" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599173831651" />
     <state width="959" height="335" key="GridCell.Tab.1.bottom" timestamp="1598720214731">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -530,10 +542,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599097709341">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599150555632">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599097709341" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599150555632" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

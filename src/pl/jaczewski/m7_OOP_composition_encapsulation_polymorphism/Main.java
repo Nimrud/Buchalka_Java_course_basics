@@ -21,6 +21,39 @@ public class Main {
         System.out.println(printer.getTonerLevel());
         printer.addToner(25);
         printer.pagePrinting(11);
+        System.out.println();
+
+        // OOP Grand Challenge
+        System.out.println("OOP Grand Challenge:");
+        OOP_challenge_Burger burger1 = new OOP_challenge_Burger("white", "My");
+        burger1.addIngredient("lettuce");
+        burger1.addIngredient("tomato");
+        burger1.addIngredient("pepper");
+        burger1.addIngredient("olives");
+        burger1.addIngredient("cucumber");
+        burger1.totalOrder();
+        System.out.println();
+
+        OOP_challenge_Burger_Healthy healthyBurger = new OOP_challenge_Burger_Healthy();
+        healthyBurger.addIngredient("asparagus");
+        healthyBurger.addIngredient("lettuce");
+        healthyBurger.addIngredient("tomato");
+        healthyBurger.addIngredient("pepper");
+        healthyBurger.addIngredient("olives");
+        healthyBurger.addIngredient("cucumber");
+        healthyBurger.addIngredient("onion");
+        healthyBurger.totalOrder();
+        healthyBurger.priceCalculationScheme();
+        System.out.println();
+
+        OOP_challenge_Burger_Deluxe deluxeBurger = new OOP_challenge_Burger_Deluxe("dark");
+        deluxeBurger.addIngredient("lettuce");
+        deluxeBurger.addIngredient("tomato");
+        deluxeBurger.addIngredient("pepper");
+        deluxeBurger.addIngredient("olives");
+        deluxeBurger.addIngredient("onion");
+        deluxeBurger.totalOrder();
+        deluxeBurger.priceCalculationScheme();
 
     }
 }
