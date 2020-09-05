@@ -17,14 +17,13 @@ public class Arrays_challenge {
         for (int i = 0; i < firstArray.length; i++){
             System.out.println("Sorted array: " + sortedArray[i]);
         }
-
     }
 
-    public static int[] getArray(int number){
-        System.out.println("Type in " + number + " numbers.");
+    public static int[] getArray(int arraySize){
+        System.out.println("Type in " + arraySize + " numbers.");
 
-        int[] newArray = new int[number];
-        for (int i = 0; i < number; i++){
+        int[] newArray = new int[arraySize];
+        for (int i = 0; i < arraySize; i++){
             System.out.print("Number " + (i + 1) + ": ");
             newArray[i] = sc.nextInt();
         }
@@ -32,15 +31,18 @@ public class Arrays_challenge {
     }
 
     public static int[] sortArray(int[] array){
-        int[] sortedArray = new int[array.length];
-        int max = Integer.MIN_VALUE;
-        for (int i = 0; i < array.length; i++){
-            if (array[i] > max){
-                max = array[i];
-                sortedArray[0] = max;
+        int count = 0;
+        while(count < array.length) {
+            for (int i = 0; i < (array.length - 1); i++) {
+                if (array[i] < array[i + 1]) {
+                    int a = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = a;
+                }
             }
+            count++;
         }
-        return sortedArray;
+        return array;
     }
 
 }
