@@ -2,13 +2,13 @@ package pl.jaczewski.m8_Arrays_Lists_Autoboxing;
 
 import java.util.Scanner;
 
-public class Arrays_challenge {
+public class Arrays_challenge1 {
 
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
 
-        int[] firstArray = getArray(6);
+        int[] firstArray = getArray(5);
         for (int i = 0; i < firstArray.length; i++){
             System.out.println("Number " + (i + 1) + " was " + firstArray[i]);
         }
