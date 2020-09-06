@@ -2,7 +2,7 @@ package pl.jaczewski.m8_Arrays_Lists_Autoboxing;
 
 import java.util.Scanner;
 
-public class Arrays {
+public class Arrays_Java {
     private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 

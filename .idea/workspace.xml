@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_Java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge1.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +60,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="proofread" />
   </component>
-  <component name="RunManager" selected="Application.Arrays_challenge">
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Arrays" />
+  <component name="RunManager" selected="Application.Arrays_challenge3">
+    <configuration name="Arrays_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Arrays_Java" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +74,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays_challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Arrays_challenge" />
+    <configuration name="Arrays_challenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Arrays_challenge1" />
+      <module name="Buchalka_Java_course_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_challenge2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Arrays_challenge2" />
+      <module name="Buchalka_Java_course_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_challenge3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Arrays_challenge3" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
@@ -97,32 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism_challenge_Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m7_OOP_composition_encapsulation_polymorphism.Polymorphism_challenge_Car" />
-      <module name="Buchalka_Java_course_basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m7_OOP_composition_encapsulation_polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="X_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m6_OOP_classes_constructors_inheritance.X_Main" />
-      <module name="Buchalka_Java_course_basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m6_OOP_classes_constructors_inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Arrays_challenge" />
-        <item itemvalue="Application.Arrays" />
+        <item itemvalue="Application.Arrays_challenge3" />
+        <item itemvalue="Application.Arrays_challenge2" />
+        <item itemvalue="Application.Arrays_challenge1" />
+        <item itemvalue="Application.Arrays_Java" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Polymorphism_challenge_Car" />
-        <item itemvalue="Application.X_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +177,7 @@
       <workItem from="1598875667764" duration="6974000" />
       <workItem from="1598961923075" duration="6990000" />
       <workItem from="1599065011411" duration="32465000" />
-      <workItem from="1599332430814" duration="15641000" />
+      <workItem from="1599332430814" duration="20172000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
       <created>1597365614205</created>
@@ -442,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599342488604</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Arrays_Lists_Autoboxing: tablice (+challenge, rozwiązany)">
+      <created>1599350227330</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1599350227330</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metody - zadanie 02, 03, 04" />
     <MESSAGE value="metody - zadanie 05, 06, 07" />
     <MESSAGE value="metody - overloading" />
     <MESSAGE value="metody - overloading - challenge" />
@@ -486,7 +495,8 @@
     <MESSAGE value="OOP: encapsulation (challenge)" />
     <MESSAGE value="OOP: polymorphism (challenge) + OOP big challenge" />
     <MESSAGE value="Arrays_Lists_Autoboxing: tablice (+challenge, w trakcie rozwiązywania)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays_Lists_Autoboxing: tablice (+challenge, w trakcie rozwiązywania)" />
+    <MESSAGE value="Arrays_Lists_Autoboxing: tablice (+challenge, rozwiązany)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays_Lists_Autoboxing: tablice (+challenge, rozwiązany)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -505,30 +515,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="680" y="42" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599342488411">
+    <state x="680" y="42" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599350227253">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="680" y="42" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599342488411" />
+    <state x="680" y="42" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599350227253" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="1807" height="324" key="GridCell.Tab.0.bottom" timestamp="1599348333487">
+    <state width="959" height="324" key="GridCell.Tab.0.bottom" timestamp="1599355791580">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="324" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599348333487" />
-    <state width="1807" height="324" key="GridCell.Tab.0.center" timestamp="1599348333487">
+    <state width="959" height="324" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599355791579" />
+    <state width="959" height="324" key="GridCell.Tab.0.center" timestamp="1599355791579">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="324" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599348333487" />
-    <state width="1807" height="324" key="GridCell.Tab.0.left" timestamp="1599348333486">
+    <state width="959" height="324" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599355791579" />
+    <state width="959" height="324" key="GridCell.Tab.0.left" timestamp="1599355791579">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="324" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599348333486" />
-    <state width="1807" height="324" key="GridCell.Tab.0.right" timestamp="1599348333487">
+    <state width="959" height="324" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599355791579" />
+    <state width="959" height="324" key="GridCell.Tab.0.right" timestamp="1599355791579">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="324" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599348333487" />
+    <state width="959" height="324" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599355791579" />
     <state width="1807" height="248" key="GridCell.Tab.1.bottom" timestamp="1599347917716">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -553,10 +563,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599342540613">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599350230001">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599342540613" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599350230001" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
