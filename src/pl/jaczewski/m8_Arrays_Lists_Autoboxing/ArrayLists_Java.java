@@ -11,15 +11,31 @@ public class ArrayLists_Java {
         System.out.println(item + " has been added.");
     }
 
-    public void removeItem(int position){
+    private void removeItem(int position){
         String itemRemoved = groceryList.get(position);
         groceryList.remove(position);
         System.out.println(itemRemoved + " has been removed.");
     }
+    public void removeItem(String item){
+        int position = findItem(item);
+        if (position >=0){
+        removeItem(groceryList.indexOf(item));
+        } else {
+            System.out.println("This item is not in the list.");
+        }
+    }
 
-    public void modifyItem(int position, String name){
+    private void modifyItem(int position, String name){
         groceryList.set(position, name);
-        System.out.println("Item #" + position + " has been replaced with " + name + ".");
+        System.out.println("Item #" + (position+1) + " has been replaced with " + name + ".");
+    }
+    public void modifyItem(String oldItem, String newItem){
+        int position = findItem(oldItem);
+        if (position >= 0){
+            modifyItem(position, newItem);
+        } else {
+            System.out.println("No such an item in the list.");
+        }
     }
 
     public void printGroceryList(){
@@ -29,13 +45,18 @@ public class ArrayLists_Java {
         }
     }
 
-    public String findItem(String item){
+    public int findItem(String item){
+        return groceryList.indexOf(item);
         // boolean exists = groceryList.contains(item);
+
+        /*
+        // Metoda zwracająca Stringa:
         int position = groceryList.indexOf(item);
         if (position >= 0){
             return groceryList.get(position);
         } else {
             return null;
         }
+         */
     }
 }

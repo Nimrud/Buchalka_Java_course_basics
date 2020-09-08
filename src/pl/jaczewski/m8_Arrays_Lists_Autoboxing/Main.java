@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     private static Scanner sc = new Scanner(System.in);
-    private static ArrayLists_Java grocerylist = new ArrayLists_Java();
+    private static ArrayLists_Java groceryList = new ArrayLists_Java();
 
     public static void main(String[] args) {
-        int inputNumber = 0;
+        int inputNumber;
         boolean quitApplication = false;
         printInstructions();
         while (!quitApplication){
@@ -20,7 +20,7 @@ public class Main {
                     printInstructions();
                     break;
                 case 1:
-                    grocerylist.printGroceryList();
+                    groceryList.printGroceryList();
                     break;
                 case 2:
                     addItem();
@@ -57,29 +57,27 @@ public class Main {
 
     public static void addItem(){
         System.out.print("Enter item name: ");
-        grocerylist.addItem(sc.nextLine());
+        groceryList.addItem(sc.nextLine());
     }
 
     public static void removeItem(){
-        System.out.print("Enter item number: ");
-        int number = sc.nextInt();
-        sc.nextLine();
-        grocerylist.removeItem(number-1);
+        System.out.print("Enter item to be removed: ");
+        String name = sc.nextLine();
+        groceryList.removeItem(name);
     }
 
     private static void modifyItem(){
-        System.out.print("Enter item number: ");
-        int number = sc.nextInt();
-        sc.nextLine();
-        System.out.print("Enter a replacement item name: ");
-        String itemName = sc.nextLine();
-        grocerylist.modifyItem(number-1, itemName);
+        System.out.print("Enter item to modify: ");
+        String oldItem = sc.nextLine();
+        System.out.print("Enter a new item: ");
+        String newItem = sc.nextLine();
+        groceryList.modifyItem(oldItem, newItem);
     }
 
     private static void itemSearch(){
         System.out.print("Enter item name: ");
         String name = sc.nextLine();
-        if (grocerylist.findItem(name) != null){
+        if (groceryList.findItem(name) >= 0){
             System.out.println(name + " has been found on the list.");
         } else {
             System.out.println(name + " is not in the list.");
