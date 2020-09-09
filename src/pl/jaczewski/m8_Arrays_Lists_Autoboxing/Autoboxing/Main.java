@@ -3,14 +3,36 @@ package pl.jaczewski.m8_Arrays_Lists_Autoboxing.Autoboxing;
 import java.util.Scanner;
 
 public class Main {
-    Scanner sc = new Scanner(System.in);
+    private static Scanner sc = new Scanner(System.in);
+    private static Bank bank = new Bank("Noble Bank");
 
     public static void main(String[] args) {
+        System.out.println("Welcome to " + bank.getBankName() + "!\n"
+                            + "Please choose your option:");
+        int option;
+        boolean quit = false;
+        printInstructions();
+
     }
 
 
     public static void addCustomer(){
 
+    }
+
+    public static void printInstructions() {
+        System.out.println("Menu: ");
+        System.out.println("\t 0 - To display options.");
+        System.out.println("\t 1 - To display bank branches.");
+        System.out.println("\t 2 - To modify an existing branch.");
+        System.out.println("\t 3 - To add a new customer to a branch.");
+        System.out.println("\t 4 - To add a transaction for a customer.");
+        System.out.println("\t 5 - To display all customers of a branch.");
+        System.out.println("\t 6 - To display all transactions of customers of particular branch.");
+        System.out.println("\t 7 - To modify customer data.");
+        System.out.println("\t 8 - To remove a customer.");
+        System.out.println("\t 9 - To search for a customer.");
+        System.out.println("\t 10 - To quit the application.");
     }
 }
 
