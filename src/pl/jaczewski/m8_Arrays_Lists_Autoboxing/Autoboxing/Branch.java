@@ -29,13 +29,13 @@ public class Branch {
         return false;
     }
 
-    public boolean addCustomer(Customer customer){
-        if (findCustomer(customer.getPesel()) >= 0){
+    public boolean addCustomer(String customerName, int customerPesel, double initialAmount){
+        if (findCustomer(customerPesel) >= 0){
             System.out.println("This customer already exists.");
             return false;
         } else {
-            this.myCustomers.add(customer);
-            System.out.println("New customer added (" + customer.getName() + ", PESEL: " + customer.getPesel() + ", initial amount: " + customer.getTransactions() + ").");
+            this.myCustomers.add(new Customer(customerName, customerPesel, initialAmount));
+            System.out.println("New customer added (" + customerName + ", PESEL: " + customerPesel + ", initial amount: " + initialAmount + ").");
             return true;
         }
     }
@@ -77,10 +77,13 @@ public class Branch {
             System.out.println("Customer not found.");
             return false;
         } else {
-            // uzupełnić ciało metody
-            // myCustomers.
+            this.myCustomers.get(findCustomer(customer.getPesel())).addTransaction(amount);
             System.out.println("Balance for this account has been changed by " + amount);
             return true;
         }
+    }
+
+    public String getBranchName() {
+        return branchName;
     }
 }
