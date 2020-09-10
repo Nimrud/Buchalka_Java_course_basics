@@ -23,6 +23,9 @@ public class Bank {
         }
         return null;
     }
+    private int findBranchIndex(Branch branch){
+        return myBranches.indexOf(branch);
+    }
 
     public boolean addBranch(String branchName){
         if (findBranch(branchName) == null){
@@ -35,13 +38,14 @@ public class Bank {
         }
     }
 
-    public boolean removeBranch(Branch branch){
-        if (findBranch(branch.getBranchName()) == null){
-            System.out.println("Branch " + branch.getBranchName() + " not found.");
+    public boolean updateBranch(String oldBranchName, String newBranchName){
+        Branch oldBranch = findBranch(oldBranchName);
+        if (oldBranch == null){
+            System.out.println("Branch " + oldBranch + " not found.");
             return false;
         } else {
-            myBranches.remove(findBranch(branch.getBranchName()));
-            System.out.println("Branch " + branch.getBranchName() + " removed.");
+            myBranches.set(findBranchIndex(oldBranch), findBranch(newBranchName));
+            System.out.println("Branch " + oldBranchName + " updated with name: " + newBranchName);
             return true;
         }
     }
@@ -55,6 +59,12 @@ public class Bank {
             branch.addCustomer(customerName, pesel, amount);
             System.out.println("New customer added (" + customerName + ", PESEL: " + pesel + ", initial amount: " + amount + ").");
             return true;
+        }
+    }
+
+    public void displayBranches(){
+        for (int i = 0; i < myBranches.size(); i++){
+            System.out.println("#" + (i+1) + ": " + myBranches.get(i).getBranchName());
         }
     }
 }
