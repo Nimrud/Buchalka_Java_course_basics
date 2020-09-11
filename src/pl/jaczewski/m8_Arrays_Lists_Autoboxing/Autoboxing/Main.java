@@ -7,13 +7,13 @@ public class Main {
     private static Bank bank = new Bank("Noble Bank");
 
     public static void main(String[] args) {
-        System.out.println("Welcome to " + bank.getBankName() + "!\n"
-                            + "Please choose your option:");
+        System.out.println("Welcome to " + bank.getBankName() + "!");
         int option;
         boolean quit = false;
         printInstructions();
 
-        while(quit){
+        while(!quit){
+            System.out.print("Please choose your option (for menu - press 0): ");
             boolean isInt = sc.hasNextInt();
             if (!isInt){
                 System.out.println("Invalid number. Try again.");
@@ -51,12 +51,9 @@ public class Main {
                         modifyCustomerData();
                         break;
                     case 9:
-                        removeCustomer();
-                        break;
-                    case 10:
                         findCustomer();
                         break;
-                    case 11:
+                    case 10:
                         quit = true;
                         break;
                     default:
@@ -65,7 +62,6 @@ public class Main {
                 }
             }
         }
-
     }
 
 
@@ -75,7 +71,7 @@ public class Main {
         System.out.print("Enter PESEL number: ");
         int pesel = sc.nextInt();
         sc.nextLine();
-        System.out.print("Enter customer's deposit: ");
+        System.out.print("Enter customer's deposit (PL users - put COMMA for decimals!): ");
         double amount = sc.nextDouble();
         sc.nextLine();
         System.out.print("Enter branch name: ");
@@ -102,7 +98,49 @@ public class Main {
     }
 
     public static void findCustomer(){
+        System.out.print("Enter PESEL number: ");
+        int pesel = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter branch name: ");
+        String branchName = sc.nextLine();
+        bank.customerFinder(branchName, pesel);
+    }
 
+    public static void modifyCustomerData(){
+        System.out.print("Enter branch name: ");
+        String branchName = sc.nextLine();
+        System.out.print("Enter PESEL number: ");
+        int pesel = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter old customer name: ");
+        String oldCustomerName = sc.nextLine();
+        System.out.print("Enter old customer name: ");
+        String newCustomerName = sc.nextLine();
+        bank.customerUpdater(branchName, pesel, oldCustomerName, newCustomerName);
+    }
+
+    public static void displayCustomersOfBranch(){
+        System.out.print("Enter branch name: ");
+        String branchName = sc.nextLine();
+        System.out.println("Customers of branch " + branchName + ":");
+        bank.displayCustomersOfBranch(branchName, false);
+    }
+
+    public static void displayTransactionsOfBranch(){
+        System.out.print("Enter branch name: ");
+        String branchName = sc.nextLine();
+        bank.displayCustomersOfBranch(branchName, true);
+    }
+
+    public static void addTransaction(){
+        System.out.print("Enter branch name: ");
+        String branchName = sc.nextLine();
+        System.out.print("Enter PESEL number: ");
+        int pesel = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter amount of money: ");
+        double amount = sc.nextDouble();
+        bank.addCustomerTransaction(branchName, pesel, amount);
     }
 
     public static void printInstructions() {
@@ -116,9 +154,8 @@ public class Main {
         System.out.println("\t 6 - To display all customers of a branch.");
         System.out.println("\t 7 - To display all transactions of customers of particular branch.");
         System.out.println("\t 8 - To modify customer data.");
-        System.out.println("\t 9 - To remove a customer.");
-        System.out.println("\t 10 - To search for a customer.");
-        System.out.println("\t 11 - To quit the application.");
+        System.out.println("\t 9 - To search for a customer.");
+        System.out.println("\t 10 - To quit the application.");
     }
 }
 
