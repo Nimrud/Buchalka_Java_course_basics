@@ -11,37 +11,39 @@ public class Branch {
         this.myCustomers = new ArrayList<>();
     }
 
-    private int findCustomer(int pesel){
-        for (int i = 0; i < myCustomers.size(); i++){
-            if (myCustomers.get(i).getPesel() == pesel){
+    public int findCustomer(int pesel) {
+        for (int i = 0; i < myCustomers.size(); i++) {
+            if (myCustomers.get(i).getPesel() == pesel) {
                 return i;
             }
         }
         return -1;
     }
-    private int findCustomer(Customer customer){
+
+    private int findCustomer(Customer customer) {
         return this.myCustomers.indexOf(customer);
     }
-    public boolean isAlreadyCustomer(int pesel){
-        if (findCustomer(pesel) >= 0){
+
+    public boolean isAlreadyCustomer(int pesel) {
+        if (findCustomer(pesel) >= 0) {
             return true;
         }
         return false;
     }
 
-    public boolean addCustomer(String customerName, int customerPesel, double initialAmount){
-        if (findCustomer(customerPesel) >= 0){
+    public boolean addCustomer(String customerName, int customerPesel, double initialAmount) {
+        if (findCustomer(customerPesel) >= 0) {
             System.out.println("This customer already exists.");
             return false;
         } else {
             this.myCustomers.add(new Customer(customerName, customerPesel, initialAmount));
-            System.out.println("New customer added (" + customerName + ", PESEL: " + customerPesel + ", initial amount: " + initialAmount + ").");
+            System.out.println("Added customer to branch " + this.branchName + ".");
             return true;
         }
     }
 
-    public boolean removeCustomer(Customer customer){
-        if (findCustomer(customer) >= 0){
+    public boolean removeCustomer(Customer customer) {
+        if (findCustomer(customer) >= 0) {
             System.out.println("The account of " + customer.getName() + " (PESEL: " + customer.getPesel() + ") was closed. Customer deleted from database.");
             this.myCustomers.remove(findCustomer(customer));
             return true;
@@ -51,33 +53,45 @@ public class Branch {
         }
     }
 
-    public boolean updateCustomer(Customer oldCustomerName, Customer newCustomerName){
-        if (findCustomer(oldCustomerName) < 0){
-            System.out.println(oldCustomerName.getName() + " (PESEL: " + oldCustomerName.getPesel() + ") not found.");
-            return false;
-        } else if (findCustomer(newCustomerName.getPesel()) != findCustomer(oldCustomerName.getPesel())){
-            System.out.println("PESEL number must be the same.");
+    public boolean updateCustomer(int pesel, String oldCustomerName, String newCustomerName) {
+        if (findCustomer(pesel) < 0) {
+            System.out.println("PESEL: " + pesel + " not found.");
             return false;
         } else {
-            this.myCustomers.set(findCustomer(oldCustomerName), newCustomerName);
-            System.out.println(oldCustomerName.getName() + " has been replaced with " + newCustomerName.getName());
+            Customer updatedCustomer = findWholeCustomer(pesel).setName(newCustomerName);
+            this.myCustomers.set(findCustomer(pesel), updatedCustomer);
             return true;
         }
     }
-
-    public void displayCustomers(){
-        System.out.println(this.branchName + " has " + this.myCustomers.size() + "customers:");
-        for (int i = 0; i < this.myCustomers.size(); i++){
-            System.out.println("#" + (i+1) + ": " + this.myCustomers.get(i).getName() + " (PESEL: " + this.myCustomers.get(i).getPesel() + ").");
+    private Customer findWholeCustomer(int pesel){
+        for (int i = 0; i < myCustomers.size(); i++) {
+            if (myCustomers.get(i).getPesel() == pesel) {
+                return myCustomers.get(i);
+            }
         }
+        return null;
     }
 
-    public boolean addTransaction(Customer customer, double amount){
-        if (findCustomer(customer.getPesel()) < 0) {
+    /*
+    bez gettera, na piechotę:
+        public void displayCustomers(){
+            System.out.println(this.branchName + " has " + this.myCustomers.size() + "customers:");
+            for (int i = 0; i < this.myCustomers.size(); i++){
+                System.out.println("#" + (i+1) + ": " + this.myCustomers.get(i).getName() + " (PESEL: " + this.myCustomers.get(i).getPesel() + ").");
+            }
+        }
+     */
+
+    public ArrayList<Customer> getMyCustomers() {
+        return myCustomers;
+    }
+
+    public boolean addTransaction(int pesel, double amount) {
+        if (findCustomer(pesel) < 0) {
             System.out.println("Customer not found.");
             return false;
         } else {
-            this.myCustomers.get(findCustomer(customer.getPesel())).addTransaction(amount);
+            this.myCustomers.get(findCustomer(pesel)).addTransaction(amount);
             System.out.println("Balance for this account has been changed by " + amount);
             return true;
         }
@@ -85,5 +99,10 @@ public class Branch {
 
     public String getBranchName() {
         return branchName;
+    }
+
+    public Branch setBranchName(String branchName) {
+        this.branchName = branchName;
+        return this;
     }
 }

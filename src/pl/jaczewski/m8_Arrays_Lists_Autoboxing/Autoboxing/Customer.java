@@ -30,7 +30,8 @@ public class Customer {
         return transactions;
     }
 
-    public Customer createCustomer(String name, int pesel, double initialAmount){
-        return new Customer(name, pesel, initialAmount);
+    public Customer setName(String name) {
+        this.name = name;
+        return this;
     }
 }
