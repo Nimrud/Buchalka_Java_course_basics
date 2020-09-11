@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Branch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,20 +57,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="proofread" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="ArrayLists_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.ArrayLists_Java" />
-      <module name="Buchalka_Java_course_basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Autoboxing.Basics" />
       <module name="Buchalka_Java_course_basics" />
@@ -113,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Linked_Lists.Main" />
+      <module name="Buchalka_Java_course_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Linked_Lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m8_Arrays_Lists_Autoboxing.Main" />
       <module name="Buchalka_Java_course_basics" />
@@ -139,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ArrayLists_Java" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +176,7 @@
       <workItem from="1599509428089" duration="30265000" />
       <workItem from="1599601221619" duration="18778000" />
       <workItem from="1599766750331" duration="599000" />
-      <workItem from="1599767890561" duration="17984000" />
+      <workItem from="1599767890561" duration="22869000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
       <created>1597365614205</created>
@@ -496,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599774876555</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Arrays_Lists_Autoboxing: Autoboxing challenge (skończone)">
+      <created>1599797997248</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1599797997248</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +519,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="control flow statements: instrukcja 'for' (w tym jedno zadanie zrobione bardziej zaawansowaną metodą z wykorzystaniem BigDecimal - z własnej inicjatywy :-)" />
     <MESSAGE value="control flow statements: instrukcja 'for' (2 zadania) + instrukcja 'while' (1 zadanie)" />
     <MESSAGE value="control flow statements: instrukcja 'while' (1 zadanie)" />
     <MESSAGE value="control flow statements: zadania 15, 16, 17, 18, 19 i 20" />
@@ -540,7 +543,8 @@
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania)" />
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania (2))" />
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania (3))" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania (3))" />
+    <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (skończone)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays_Lists_Autoboxing: Autoboxing challenge (skończone)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -559,30 +563,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="391" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599774876374">
+    <state x="391" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1599797997156">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="391" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599774876374" />
+    <state x="391" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1599797997156" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="1807" height="311" key="GridCell.Tab.0.bottom" timestamp="1599797613506">
+    <state width="960" height="309" key="GridCell.Tab.0.bottom" timestamp="1599849063752">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="311" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599797613506" />
-    <state width="1807" height="311" key="GridCell.Tab.0.center" timestamp="1599797613505">
+    <state width="960" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599849063752" />
+    <state width="960" height="309" key="GridCell.Tab.0.center" timestamp="1599849063751">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="311" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599797613505" />
-    <state width="1807" height="311" key="GridCell.Tab.0.left" timestamp="1599797613505">
+    <state width="960" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599849063751" />
+    <state width="960" height="309" key="GridCell.Tab.0.left" timestamp="1599849063750">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="311" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599797613505" />
-    <state width="1807" height="311" key="GridCell.Tab.0.right" timestamp="1599797613506">
+    <state width="960" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599849063750" />
+    <state width="960" height="309" key="GridCell.Tab.0.right" timestamp="1599849063751">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="311" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599797613506" />
+    <state width="960" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599849063751" />
     <state width="1807" height="246" key="GridCell.Tab.1.bottom" timestamp="1599795257715">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -607,10 +611,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599774878436">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599797998804">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599774878436" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599797998804" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
