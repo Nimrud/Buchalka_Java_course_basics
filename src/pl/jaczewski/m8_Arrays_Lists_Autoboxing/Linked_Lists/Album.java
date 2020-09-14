@@ -1,7 +1,6 @@
 package pl.jaczewski.m8_Arrays_Lists_Autoboxing.Linked_Lists;
 
 import java.util.LinkedList;
-import java.util.ListIterator;
 
 public class Album {
     private String name;
@@ -20,24 +19,30 @@ public class Album {
         return songs;
     }
 
-    public void addSong(String songName, int duration){
-
+    public boolean addSong(String songName, int duration){
+        if (findSong(songName) >= 0){
+            return false;
+        } else {
+            this.songs.add(new Song(songName, duration));
+            return true;
+        }
     }
 
-    private int findSong(String name, LinkedList songs){
-        ListIterator<String> i = songs.listIterator();
-        while (i.hasNext()){
-            int compare = i.next().compareTo(name);
-            if (compare == 0){
-                System.out.println("That song is already in this album.");
-                return -1;
-            } else {
-                System.out.println("Song " + name + " not found.");
-                return 1;
+    private int findSong(String name){
+        for (int i = 0; i < songs.size(); i++){
+            if (this.songs.get(i).getTitle() == name){
+                System.out.println(name + " is already in the album.");
+                return i;
             }
         }
         return -1;
     }
 
+    /*
+    public void displaySongs(){
+        for (int i = 0; )
+    }
+
+     */
 
 }
