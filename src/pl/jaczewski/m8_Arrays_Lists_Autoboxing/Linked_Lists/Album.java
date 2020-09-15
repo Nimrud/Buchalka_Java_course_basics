@@ -20,29 +20,37 @@ public class Album {
     }
 
     public boolean addSong(String songName, int duration){
-        if (findSong(songName) >= 0){
+        if (findSong(songName) != null){
+            System.out.println(songName + " is already in the album.");
             return false;
         } else {
+            System.out.println("\"" + songName + "\" added to album \"" + this.name + "\".");
             this.songs.add(new Song(songName, duration));
             return true;
         }
     }
 
-    private int findSong(String name){
+    private Song findSong(String name){
         for (int i = 0; i < songs.size(); i++){
-            if (this.songs.get(i).getTitle() == name){
-                System.out.println(name + " is already in the album.");
-                return i;
+            if (this.songs.get(i).getTitle().equals(name)){
+                return this.songs.get(i);
             }
         }
-        return -1;
+        return null;
     }
 
-    /*
-    public void displaySongs(){
-        for (int i = 0; )
+    public boolean addToPlaylist(String name, LinkedList<Song> playlist){
+        Song songChecker = findSong(name);
+        if (songChecker != null){
+            playlist.add(songChecker);
+            return true;
+        }
+        System.out.println(name + " not found.");
+        return false;
     }
 
-     */
+    public void displayAllSongs(){
+        getSongs();
+    }
 
 }

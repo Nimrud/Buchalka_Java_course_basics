@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class Main {
+public class Basics {
     public static void main(String[] args) {
         LinkedList<String> trip = new LinkedList<>();
         trip.add("Warszawa");
