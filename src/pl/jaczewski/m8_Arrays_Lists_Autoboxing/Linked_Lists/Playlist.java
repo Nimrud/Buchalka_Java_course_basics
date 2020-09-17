@@ -96,7 +96,21 @@ public class Playlist {
                         }
                         break;
                     case 5:
-                        //replay();
+                        if(forward) {
+                            if(listIterator.hasPrevious()) {
+                                System.out.println("Now replaying " + listIterator.previous().toString());
+                                forward = false;
+                            } else {
+                                System.out.println("This is the start of playlist");
+                            }
+                        } else {
+                            if(listIterator.hasNext()) {
+                                System.out.println("Now replaying " + listIterator.next().toString());
+                                forward = true;
+                            } else {
+                                System.out.println("This is the end of playlist");
+                            }
+                        }
                         break;
                     case 6:
                         quit = true;

@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Playlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Song.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,17 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Playlist" />
@@ -181,14 +167,7 @@
       <workItem from="1599766750331" duration="599000" />
       <workItem from="1599767890561" duration="24007000" />
       <workItem from="1600030590396" duration="5075000" />
-      <workItem from="1600120121663" duration="13812000" />
-    </task>
-    <task id="LOCAL-00001" summary="pierwszy commit: stworzenie gitignore i podstawowej struktury">
-      <created>1597365614205</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1597365614205</updated>
+      <workItem from="1600120121663" duration="15250000" />
     </task>
     <task id="LOCAL-00002" summary="primitive types: int, byte, short, long, float, double">
       <created>1597367302083</created>
@@ -526,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600120163191</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Arrays_Lists_Autoboxing: LinkedList - challenge - w trakcie rozwiązywania (3)">
+      <created>1600203369887</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1600203369887</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="control flow statements: zadania 15, 16, 17, 18, 19 i 20" />
     <MESSAGE value="control flow statements: zadania 21, 22, 23, 24, 25 i parsowanie Stringa do inta" />
     <MESSAGE value="control flow statements: zadanie 26" />
     <MESSAGE value="control flow statements: 3 zadania z rysowaniem wzorów w konsoli" />
@@ -570,7 +555,8 @@
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (skończone)" />
     <MESSAGE value="Arrays_Lists_Autoboxing: LinkedList - podstawy" />
     <MESSAGE value="Arrays_Lists_Autoboxing: LinkedList - challenge - w trakcie rozwiązywania (1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays_Lists_Autoboxing: LinkedList - challenge - w trakcie rozwiązywania (1)" />
+    <MESSAGE value="Arrays_Lists_Autoboxing: LinkedList - challenge - w trakcie rozwiązywania (3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays_Lists_Autoboxing: LinkedList - challenge - w trakcie rozwiązywania (3)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -589,46 +575,46 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1600120162977">
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1600203369782">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1600120162977" />
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1600203369782" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="1807" height="309" key="GridCell.Tab.0.bottom" timestamp="1600203170850">
+    <state width="1807" height="241" key="GridCell.Tab.0.bottom" timestamp="1600207379223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600203170850" />
-    <state width="1807" height="309" key="GridCell.Tab.0.center" timestamp="1600203170849">
+    <state width="1807" height="241" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379223" />
+    <state width="1807" height="241" key="GridCell.Tab.0.center" timestamp="1600207379222">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600203170849" />
-    <state width="1807" height="309" key="GridCell.Tab.0.left" timestamp="1600203170849">
+    <state width="1807" height="241" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379222" />
+    <state width="1807" height="241" key="GridCell.Tab.0.left" timestamp="1600207379222">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600203170849" />
-    <state width="1807" height="309" key="GridCell.Tab.0.right" timestamp="1600203170849">
+    <state width="1807" height="241" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379222" />
+    <state width="1807" height="241" key="GridCell.Tab.0.right" timestamp="1600207379223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600203170849" />
-    <state width="1807" height="241" key="GridCell.Tab.1.bottom" timestamp="1600199451039">
+    <state width="1807" height="241" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379223" />
+    <state width="1807" height="241" key="GridCell.Tab.1.bottom" timestamp="1600207379223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="241" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600199451039" />
-    <state width="1807" height="241" key="GridCell.Tab.1.center" timestamp="1600199451038">
+    <state width="1807" height="241" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379223" />
+    <state width="1807" height="241" key="GridCell.Tab.1.center" timestamp="1600207379223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="241" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600199451038" />
-    <state width="1807" height="241" key="GridCell.Tab.1.left" timestamp="1600199451038">
+    <state width="1807" height="241" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379223" />
+    <state width="1807" height="241" key="GridCell.Tab.1.left" timestamp="1600207379223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="241" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600199451038" />
-    <state width="1807" height="241" key="GridCell.Tab.1.right" timestamp="1600199451039">
+    <state width="1807" height="241" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379223" />
+    <state width="1807" height="241" key="GridCell.Tab.1.right" timestamp="1600207379223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="241" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600199451039" />
+    <state width="1807" height="241" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600207379223" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1597368388283">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -637,10 +623,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600120165526">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600203456616">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1600120165526" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1600203456616" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
