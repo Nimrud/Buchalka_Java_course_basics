@@ -1,18 +1,22 @@
 package pl.jaczewski.m9_Inner_Abstract_Classes_Interfaces.Interfaces;
 
-public class Phone implements ITelephone{
+public class DesktopPhone implements ITelephone{
 
     private int myNumber;
     private boolean isRinging;
 
+    public DesktopPhone(int myNumber) {
+        this.myNumber = myNumber;
+    }
+
     @Override
     public void powerOn() {
-
+        System.out.println("This phone is always on");
     }
 
     @Override
     public void dial(int phoneNumber) {
-        System.out.println("Now ringing "+ phoneNumber);
+        System.out.println("Now ringing " + phoneNumber);
     }
 
     @Override
@@ -25,7 +29,7 @@ public class Phone implements ITelephone{
 
     @Override
     public boolean isRinging() {
-        return false;
+        return isRinging;
     }
 
     @Override
@@ -33,7 +37,9 @@ public class Phone implements ITelephone{
         if (phoneNumber == myNumber){
             isRinging = true;
             System.out.println("*beep*  *beep*");
+        } else {
+            isRinging = false;
         }
-        return false;
+        return isRinging;
     }
 }
