@@ -8,25 +8,68 @@ public class Main {
 
         ISaveable player;
         player = new Players("Jan", 16, 12, 16, 8, 10, 10, 150.25);
-        player.saveObject();
-        player = new Players("Marek", 8, 10, 16, 18, 10, 12, 1240);
-        player.saveObject();
-        //player.populateFields();
+        saveObject(player);
+        System.out.println(player.toString());
 
         ISaveable monster;
         monster = new Monsters("smok", 454, 26);
-        monster.saveObject();
-        monster = new Monsters("wilk", 86, 9);
-        monster.saveObject();
+        saveObject(monster);
+        System.out.println(monster.toString());
 
+        ISaveable objectType = new Monsters("default", 0, 0);
+        if (numberOfParameters() == 3){
+            objectType = monster;
+        } else if (numberOfParameters() == 8){
+            objectType = player;
+        } else {
+            System.out.println("Invalid number of parameters (must be 3 for monster, 8 for player)");
+        }
+        loadObject(objectType);
+        //int numberOfParameters = readValues().size();
+        //System.out.println("ReadValues().size() = " + readValues().size());
+
+        System.out.println(objectType.toString());
+/*
+        if (numberOfParameters == 8){
+            //saveObject(player);
+            //loadObject(player);
+            System.out.println(player);
+        } else if (numberOfParameters == 3){
+            //saveObject(monster);
+            //loadObject(monster);
+            System.out.println(monster);
+        } else {
+            System.out.println("Invalid number of parameters. \n" +
+                    "Please type 3 parameters for monster or 8 parameters for player");
+        }
+
+ */
     }
+
+    public static void saveObject(ISaveable object){
+        for (int i = 0; i < object.saveObject().size(); i++){
+            System.out.println("Saving " + object.saveObject().get(i) + " to memory");;
+        }
+    }
+
+    public static void loadObject(ISaveable object){
+        ArrayList<String> values = readValues();
+        System.out.println(values.size());
+        object.populateFields(values);
+    }
+
+    public static int numberOfParameters(){
+        ArrayList<String> values = readValues();
+        return values.size();
+    }
+
     public static ArrayList<String> readValues() {
-        ArrayList<String> values = new ArrayList<String>();
+        ArrayList<String> values = new ArrayList<>();
 
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         int index = 0;
-        System.out.println("Choose\n" +
+        System.out.println("MENU:\n" +
                 "1 to enter a string\n" +
                 "0 to quit");
 
@@ -39,7 +82,7 @@ public class Main {
                     quit = true;
                     break;
                 case 1:
-                    System.out.print("Enter a string: ");
+                    System.out.print("Enter a string #" + (index+1) + ": ");
                     String stringInput = scanner.nextLine();
                     values.add(index, stringInput);
                     index++;

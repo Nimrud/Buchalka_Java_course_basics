@@ -16,18 +16,21 @@ public class Monsters implements ISaveable {
     }
 
     @Override
-    public ArrayList saveObject() {
-        ArrayList<Monsters> monsters = new ArrayList<>();
-        monsters.add(new Monsters(name, health, damage));
-        for (int i = 0; i < monsters.size(); i++){
-            System.out.println(monsters.toString());
-        }
-        return monsters;
+    public List saveObject() {
+        List<String> values = new ArrayList<>();
+        values.add(0, this.name);
+        values.add(1, "" + this.health);
+        values.add(2, "" + this.damage);
+        return values;
     }
 
     @Override
-    public void populateFields(List arrayList) {
-
+    public void populateFields(List<String> savedValues) {
+        if (savedValues != null && savedValues.size() > 0){
+            this.name = savedValues.get(0);
+            this.health = Integer.parseInt(savedValues.get(1));
+            this.damage = Integer.parseInt(savedValues.get(2));
+        }
     }
 
     @Override

@@ -30,7 +30,7 @@ public class Players implements ISaveable{
     public List saveObject() {
         List<String> values = new ArrayList<>();
         values.add(0, this.name);
-        values.add(1, "" + this.strength);  // dodanie "" przed intem zamienia go na Stringa
+        values.add(1, "" + this.strength);  // dodanie "" przed intem zamienia całe wyrażenie na Stringa
         values.add(2, "" + this.dexterity);
         values.add(3, "" + this.health);
         values.add(4, "" + this.intelligence);
