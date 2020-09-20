@@ -16,34 +16,8 @@ public class Main {
         saveObject(monster);
         System.out.println(monster.toString());
 
-        ISaveable objectType = new Monsters("default", 0, 0);
-        if (numberOfParameters() == 3){
-            objectType = monster;
-        } else if (numberOfParameters() == 8){
-            objectType = player;
-        } else {
-            System.out.println("Invalid number of parameters (must be 3 for monster, 8 for player)");
-        }
-        loadObject(objectType);
-        //int numberOfParameters = readValues().size();
-        //System.out.println("ReadValues().size() = " + readValues().size());
+        loadObject();
 
-        System.out.println(objectType.toString());
-/*
-        if (numberOfParameters == 8){
-            //saveObject(player);
-            //loadObject(player);
-            System.out.println(player);
-        } else if (numberOfParameters == 3){
-            //saveObject(monster);
-            //loadObject(monster);
-            System.out.println(monster);
-        } else {
-            System.out.println("Invalid number of parameters. \n" +
-                    "Please type 3 parameters for monster or 8 parameters for player");
-        }
-
- */
     }
 
     public static void saveObject(ISaveable object){
@@ -52,16 +26,22 @@ public class Main {
         }
     }
 
-    public static void loadObject(ISaveable object){
+    public static void loadObject(){
         ArrayList<String> values = readValues();
-        System.out.println(values.size());
-        object.populateFields(values);
+        int numberOfParameters = values.size();
+        if (numberOfParameters == 8){
+            Players player = new Players("default", 0, 0, 0 , 0, 0, 0, 0);
+            player.populateFields(values);
+            System.out.println(player.toString());
+        } else if (numberOfParameters == 3){
+            Monsters monster = new Monsters("default", 0, 0);
+            monster.populateFields(values);
+            System.out.println(monster.toString());
+        } else {
+            System.out.println("Incorrect number of parameters. Must be 8 for player, 3 for monsters.");
+        }
     }
 
-    public static int numberOfParameters(){
-        ArrayList<String> values = readValues();
-        return values.size();
-    }
 
     public static ArrayList<String> readValues() {
         ArrayList<String> values = new ArrayList<>();
@@ -69,9 +49,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         int index = 0;
-        System.out.println("MENU:\n" +
+        System.out.println("\n" +
+                "Make your own creature! Enter 3 values to make a monster or 8 values to make a hero!\n" +
+                "MENU:\n" +
                 "1 to enter a string\n" +
-                "0 to quit");
+                "0 to finish creation or quit app");
 
         while (!quit) {
             System.out.print("Choose an option: ");
