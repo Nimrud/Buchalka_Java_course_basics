@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Album.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,15 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,14 +195,10 @@
       <workItem from="1600120121663" duration="15250000" />
       <workItem from="1600551857675" duration="18596000" />
       <workItem from="1600692392591" duration="2029000" />
-      <workItem from="1600896966286" duration="706000" />
-    </task>
-    <task id="LOCAL-00007" summary="skrócone zapisy warunków + ternary operator + zadanie do rozwiązania">
-      <created>1597624731034</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1597624731034</updated>
+      <workItem from="1600896966286" duration="1639000" />
+      <workItem from="1600973128012" duration="94000" />
+      <workItem from="1601135704455" duration="599000" />
+      <workItem from="1601145120972" duration="3984000" />
     </task>
     <task id="LOCAL-00008" summary="expressions and statements">
       <created>1597787509972</created>
@@ -544,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600698066741</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (w trakcie - 1)">
+      <created>1600897932992</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1600897932993</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +562,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OOP: classes + constructors (2 zadania)" />
     <MESSAGE value="OOP: constructors (2 zadania)" />
     <MESSAGE value="OOP: constructors (2 kolejne zadania)" />
     <MESSAGE value="OOP: inheritance, overriding, 'super', static vs. non-static, challenge" />
@@ -588,17 +586,18 @@
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: Interface challenge - w trakcie rozwiązywania (2)" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: Interface challenge - zrobione" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: inner classes - anonymous class" />
-    <option name="LAST_COMMIT_MESSAGE" value="m9_Inner_Abstract_Classes_Interfaces: inner classes - anonymous class" />
+    <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (w trakcie - 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (w trakcie - 1)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1600697182220">
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1601150768176">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1600697182220" />
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1601150768176" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599607221748">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -607,30 +606,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1600698066568">
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1600897932799">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1600698066568" />
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1600897932799" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="930" height="309" key="GridCell.Tab.0.bottom" timestamp="1600698543474">
+    <state width="1807" height="309" key="GridCell.Tab.0.bottom" timestamp="1600924781164">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="930" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600698543474" />
-    <state width="930" height="309" key="GridCell.Tab.0.center" timestamp="1600698543473">
+    <state width="1807" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600924781164" />
+    <state width="1807" height="309" key="GridCell.Tab.0.center" timestamp="1600924781164">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="930" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600698543473" />
-    <state width="930" height="309" key="GridCell.Tab.0.left" timestamp="1600698543473">
+    <state width="1807" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600924781164" />
+    <state width="1807" height="309" key="GridCell.Tab.0.left" timestamp="1600924781163">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="930" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600698543473" />
-    <state width="930" height="309" key="GridCell.Tab.0.right" timestamp="1600698543474">
+    <state width="1807" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600924781163" />
+    <state width="1807" height="309" key="GridCell.Tab.0.right" timestamp="1600924781164">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="930" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600698543474" />
+    <state width="1807" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600924781164" />
     <state width="1807" height="238" key="GridCell.Tab.1.bottom" timestamp="1600573372187">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -655,10 +654,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600698068471">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600897935594">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1600698068471" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1600897935594" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
