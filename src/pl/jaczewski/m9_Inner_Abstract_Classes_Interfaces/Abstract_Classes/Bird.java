@@ -1,6 +1,6 @@
 package pl.jaczewski.m9_Inner_Abstract_Classes_Interfaces.Abstract_Classes;
 
-public abstract class Bird extends Animal {
+public abstract class Bird extends Animal implements CanFly {
     public Bird(String name) {
         super(name);
     }
@@ -15,5 +15,8 @@ public abstract class Bird extends Animal {
         System.out.println(getName() + " is breathing like any other bird.");
     }
 
-    public abstract void fly();
+    @Override
+    public void fly() {
+        System.out.println(getName() + " is flying.");
+    }
 }

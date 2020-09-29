@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Falcon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/CanFly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Falcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Falcon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Penguin.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -129,13 +127,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,21 +190,8 @@
       <workItem from="1600896966286" duration="1639000" />
       <workItem from="1600973128012" duration="94000" />
       <workItem from="1601135704455" duration="599000" />
-      <workItem from="1601145120972" duration="6526000" />
-    </task>
-    <task id="LOCAL-00009" summary="metody - bez zwracania wartości i ze zwracaniem">
-      <created>1597795185590</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1597795185590</updated>
-    </task>
-    <task id="LOCAL-00010" summary="metody - zadanie do rozwiązania">
-      <created>1597798724588</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1597798724588</updated>
+      <workItem from="1601145120972" duration="6883000" />
+      <workItem from="1601413742438" duration="790000" />
     </task>
     <task id="LOCAL-00011" summary="metody - zadanie do rozwiązania (2)">
       <created>1597873936379</created>
@@ -535,7 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601156372212</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (zrobione)">
+      <created>1601159035903</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1601159035903</updated>
+    </task>
+    <task id="LOCAL-00059" summary="m9_Inner_Abstract_Classes_Interfaces: abstract classes (1)">
+      <created>1601159233975</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1601159233975</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +555,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OOP: constructors (2 kolejne zadania)" />
     <MESSAGE value="OOP: inheritance, overriding, 'super', static vs. non-static, challenge" />
     <MESSAGE value="OOP: inheritance (2 zadania)" />
     <MESSAGE value="OOP: composition (challenge)" />
@@ -579,17 +579,18 @@
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: inner classes - anonymous class" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (w trakcie - 1)" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (zrobione)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (zrobione)" />
+    <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: abstract classes (1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m9_Inner_Abstract_Classes_Interfaces: abstract classes (1)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1601158755664">
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1601414098397">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1601158755664" />
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1601414098397" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599607221748">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -598,30 +599,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1601156372021">
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1601159233894">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1601156372021" />
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1601159233894" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="1807" height="309" key="GridCell.Tab.0.bottom" timestamp="1601158858404">
+    <state width="1807" height="309" key="GridCell.Tab.0.bottom" timestamp="1601159386381">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601158858404" />
-    <state width="1807" height="309" key="GridCell.Tab.0.center" timestamp="1601158858404">
+    <state width="1807" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601159386381" />
+    <state width="1807" height="309" key="GridCell.Tab.0.center" timestamp="1601159386379">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601158858404" />
-    <state width="1807" height="309" key="GridCell.Tab.0.left" timestamp="1601158858403">
+    <state width="1807" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601159386379" />
+    <state width="1807" height="309" key="GridCell.Tab.0.left" timestamp="1601159386378">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601158858403" />
-    <state width="1807" height="309" key="GridCell.Tab.0.right" timestamp="1601158858404">
+    <state width="1807" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601159386378" />
+    <state width="1807" height="309" key="GridCell.Tab.0.right" timestamp="1601159386380">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601158858404" />
+    <state width="1807" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601159386380" />
     <state width="1807" height="238" key="GridCell.Tab.1.bottom" timestamp="1600573372187">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -646,10 +647,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601156374742">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601159237511">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1601156374742" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1601159237511" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
