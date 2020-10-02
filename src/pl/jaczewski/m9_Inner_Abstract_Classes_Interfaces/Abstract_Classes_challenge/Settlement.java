@@ -1,10 +1,10 @@
 package pl.jaczewski.m9_Inner_Abstract_Classes_Interfaces.Abstract_Classes_challenge;
 
 public abstract class Settlement {
-    private String name;
-    private int population;
-    private Settlement left = null;
-    private Settlement right = null;
+    protected String name;
+    protected int population;
+    protected Settlement left = null;
+    protected Settlement right = null;
 
     public Settlement(String name, int numberOfCitizens) {
         this.name = name;
