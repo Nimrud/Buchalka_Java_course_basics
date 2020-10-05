@@ -1,4 +1,4 @@
-package pl.jaczewski.m10_Java_Generics;
+package pl.jaczewski.m10_Java_Generics.Generics;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,5 +31,12 @@ public class Main {
         nationalVolWomenBra.matchResult(nationalVolWomenIta, 3, 1);
         //nationalFootMen.matchResult(nationalVolWomenBra, 8, 0);     <= nie można porównać drużyn różnych typów
 
+        System.out.println("Ranking:");
+        System.out.println(nationalVolWomenPol.getTeamName() + ": " + nationalVolWomenPol.ranking());
+        System.out.println(nationalVolWomenBra.getTeamName() + ": " + nationalVolWomenBra.ranking());
+        System.out.println(nationalVolWomenIta.getTeamName() + ": " + nationalVolWomenIta.ranking());
+
+        System.out.println(nationalVolWomenPol.compareTo(nationalVolWomenBra));
+        System.out.println(nationalVolWomenPol.compareTo(nationalVolWomenIta));
     }
 }

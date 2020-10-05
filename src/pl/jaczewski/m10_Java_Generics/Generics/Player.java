@@ -1,4 +1,4 @@
-package pl.jaczewski.m10_Java_Generics;
+package pl.jaczewski.m10_Java_Generics.Generics;
 
 public abstract class Player {
     private String name;
