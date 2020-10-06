@@ -18,4 +18,23 @@ public class LeagueTable<T extends Team> {
     public int numberOfTeams (){
         return this.teams.size();
     }
+
+    public boolean addTeam(T team){
+        if (teams.contains(team)){
+            System.out.println(team.getName() + " already exists.");
+            return false;
+        } else {
+            teams.add(team);
+            System.out.println(team.getName() + " added to " + this.leagueName + ".");
+            return true;
+        }
+    }
+
+    public int ranking(T team){
+        return (team.getWon() * 3) + team.getTied();
+    }
+
+    public void displayRankingList(){
+        //TODO
+    }
 }
