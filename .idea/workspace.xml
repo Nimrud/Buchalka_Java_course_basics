@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="m10_Java_Generics: challenge (2)">
+    <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/RankingSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/LeagueTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/LeagueTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/Team.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,14 +194,7 @@
       <workItem from="1601413742438" duration="4713000" />
       <workItem from="1601671369859" duration="3270000" />
       <workItem from="1601924234623" duration="8825000" />
-      <workItem from="1602007514667" duration="3702000" />
-    </task>
-    <task id="LOCAL-00019" summary="metody - zadanie 10 i 11">
-      <created>1598072058094</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1598072058094</updated>
+      <workItem from="1602007514667" duration="7554000" />
     </task>
     <task id="LOCAL-00020" summary="control flow statements: instrukcja switch + zadanie 12 i 13">
       <created>1598079009752</created>
@@ -537,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602020335340</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="m10_Java_Generics: challenge (3)">
+      <created>1602024306785</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1602024306785</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +558,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrays_Lists_Autoboxing: ArrayList" />
     <MESSAGE value="Arrays_Lists_Autoboxing: ArrayList challenge" />
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania)" />
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania (2))" />
@@ -581,17 +582,18 @@
     <MESSAGE value="m10_Java_Generics: podstawy (2)" />
     <MESSAGE value="m10_Java_Generics: podstawy (3)" />
     <MESSAGE value="m10_Java_Generics: challenge (1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m10_Java_Generics: challenge (1)" />
+    <MESSAGE value="m10_Java_Generics: challenge (3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m10_Java_Generics: challenge (3)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1602020255309">
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1602026676455">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1602020255309" />
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1602026676455" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601501955646">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -600,30 +602,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1602024069468">
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1602024306691">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1602024069468" />
+    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1602024306691" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="1807" height="309" key="GridCell.Tab.0.bottom" timestamp="1602024115058">
+    <state width="1807" height="309" key="GridCell.Tab.0.bottom" timestamp="1602027946641">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1602024115058" />
-    <state width="1807" height="309" key="GridCell.Tab.0.center" timestamp="1602024115057">
+    <state width="1807" height="309" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1602027946641" />
+    <state width="1807" height="309" key="GridCell.Tab.0.center" timestamp="1602027946640">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1602024115057" />
-    <state width="1807" height="309" key="GridCell.Tab.0.left" timestamp="1602024115057">
+    <state width="1807" height="309" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1602027946640" />
+    <state width="1807" height="309" key="GridCell.Tab.0.left" timestamp="1602027946640">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1602024115057" />
-    <state width="1807" height="309" key="GridCell.Tab.0.right" timestamp="1602024115058">
+    <state width="1807" height="309" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1602027946640" />
+    <state width="1807" height="309" key="GridCell.Tab.0.right" timestamp="1602027946640">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1602024115058" />
+    <state width="1807" height="309" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1602027946640" />
     <state width="1807" height="238" key="GridCell.Tab.1.bottom" timestamp="1600573372187">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -648,10 +650,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602020336897">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602024309207">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1602020336897" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1602024309207" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

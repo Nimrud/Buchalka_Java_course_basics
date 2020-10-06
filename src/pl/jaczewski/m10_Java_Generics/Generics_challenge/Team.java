@@ -34,4 +34,13 @@ public abstract class Team {
     public int getTied() {
         return tied;
     }
+
+    private int ranking(){
+        return won * 3 + tied;
+    }
+
+    @Override
+    public String toString() {
+        return name + ": " + ranking();
+    }
 }
