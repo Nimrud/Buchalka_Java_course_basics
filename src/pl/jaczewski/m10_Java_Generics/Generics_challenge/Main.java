@@ -3,15 +3,25 @@ package pl.jaczewski.m10_Java_Generics.Generics_challenge;
 public class Main {
     public static void main(String[] args) {
         HockeyTeam podhale = new HockeyTeam("Podhale", 5, 3, 0, 2);
+        HockeyTeam unia = new HockeyTeam("Unia Oświęcim", 5, 2, 2, 1);
+        HockeyTeam zaglebie = new HockeyTeam("Zagłębie", 5, 1, 2, 3);
+        HockeyTeam stoczniowiec = new HockeyTeam("Stoczniowiec", 5, 0, 4, 1);
         FootballTeam legia = new FootballTeam("Legia", 10, 6, 3, 1);
-        LeagueTable<HockeyTeam> hockeyleague = new LeagueTable<>("Liga hokeja");
-        hockeyleague.addTeam(podhale);
-        hockeyleague.addTeam(podhale);
-        System.out.println("Liczba drużyn (" + hockeyleague.getLeagueName() + "): " + hockeyleague.numberOfTeams());
-        System.out.println("Ranking drużyny " + podhale.getName() + ": " + hockeyleague.ranking(podhale));
+        LeagueTable<HockeyTeam> hockeyLeague = new LeagueTable<>("Liga hokeja");
+        hockeyLeague.addTeam(zaglebie);
+        hockeyLeague.addTeam(podhale);
+        hockeyLeague.addTeam(stoczniowiec);
+        hockeyLeague.addTeam(unia);
+        System.out.println("Liczba drużyn (" + hockeyLeague.getLeagueName() + "): " + hockeyLeague.numberOfTeams());
+        System.out.println("Ranking drużyny " + podhale.getName() + ": " + hockeyLeague.ranking(podhale));
+
+        System.out.println();
+        hockeyLeague.displayTeams();
+
+        System.out.println();
+        hockeyLeague.displayRankingList();
     }
 }
-
 
 // Create a generic class to implement a league table for a sport.
 // The class should allow teams to be added to the list, and store

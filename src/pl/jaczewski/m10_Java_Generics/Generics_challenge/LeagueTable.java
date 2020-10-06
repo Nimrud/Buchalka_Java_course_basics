@@ -19,14 +19,12 @@ public class LeagueTable<T extends Team> {
         return this.teams.size();
     }
 
-    public boolean addTeam(T team){
+    public void addTeam(T team){
         if (teams.contains(team)){
             System.out.println(team.getName() + " already exists.");
-            return false;
         } else {
             teams.add(team);
             System.out.println(team.getName() + " added to " + this.leagueName + ".");
-            return true;
         }
     }
 
@@ -34,7 +32,17 @@ public class LeagueTable<T extends Team> {
         return (team.getWon() * 3) + team.getTied();
     }
 
+    public void displayTeams(){
+        System.out.println(leagueName + ":");
+        for (int i = 0; i < teams.size(); i++){
+            ranking(teams.get(i));
+            System.out.println(teams.get(i).getName() + ": " + ranking(teams.get(i)));
+        }
+    }
+
     public void displayRankingList(){
-        //TODO
+        teams.sort(new RankingSorter());
+        System.out.println("Tabela (" + leagueName + "): ");
+        System.out.println(teams);
     }
 }
