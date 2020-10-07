@@ -34,9 +34,9 @@ public class LeagueTable<T extends Team> {
 
     public void displayTeams(){
         System.out.println(leagueName + ":");
-        for (int i = 0; i < teams.size(); i++){
-            ranking(teams.get(i));
-            System.out.println(teams.get(i).getName() + ": " + ranking(teams.get(i)));
+        for (T team : teams) {
+            ranking(team);
+            System.out.println(team.getName() + ": " + ranking(team));
         }
     }
 
