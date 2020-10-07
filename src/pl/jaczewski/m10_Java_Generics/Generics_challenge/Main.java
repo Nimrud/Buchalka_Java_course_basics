@@ -12,6 +12,7 @@ public class Main {
         hockeyLeague.addTeam(podhale);
         hockeyLeague.addTeam(stoczniowiec);
         hockeyLeague.addTeam(unia);
+        //hockeyLeague.addTeam(legia);    <= zgodnie z założeniem nie pozwala na dodanie
         System.out.println("Liczba drużyn (" + hockeyLeague.getLeagueName() + "): " + hockeyLeague.numberOfTeams());
         System.out.println("Ranking drużyny " + podhale.getName() + ": " + hockeyLeague.ranking(podhale));
 
