@@ -3,6 +3,12 @@ package pl.jaczewski.m11_packages_scope_final_static.packages_challenge;
 public class Main {
     public static void main(String[] args) {
 
+        Series series = new Series();
+        System.out.println(series.nSum(10));
+        System.out.println(series.factorial(9));
+        System.out.println(series.fibonacci(6));
+
+
     }
 }
 

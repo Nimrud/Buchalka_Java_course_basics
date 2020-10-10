@@ -20,63 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m11_packages_scope_final_static/packages_challenge/Series.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics/BasketballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics/BasketballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics/FootballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics/VolleyballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics/VolleyballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/FootballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics_challenge/FootballTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/HockeyTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics_challenge/HockeyTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/LeagueTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics_challenge/LeagueTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics_challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/MotorcrossTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics_challenge/MotorcrossTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/RankingSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics_challenge/RankingSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m10_Java_Generics/Generics_challenge/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m10_java_generics/Generics_challenge/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m2_String/StringType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m2_string/StringType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/ArrayList_challenge/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/ArrayList_challenge/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/ArrayList_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/ArrayList_challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/ArrayList_challenge/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/ArrayList_challenge/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/ArrayLists_Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/ArrayLists_Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Arrays_Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Arrays_challenge1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Arrays_challenge2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Arrays_challenge3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Arrays_challenge3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Autoboxing/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Autoboxing/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Autoboxing/Branch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Autoboxing/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Autoboxing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Autoboxing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Linked_Lists/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Linked_Lists/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Linked_Lists/Playlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Linked_Lists/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Linked_Lists/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m8_Arrays_Lists_Autoboxing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m8_arrays_lists_autoboxing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/CanFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes/CanFly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Falcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes/Falcon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes/Penguin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes_challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes_challenge/PolishCities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes_challenge/PolishCities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Abstract_Classes_challenge/Settlement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Abstract_Classes_challenge/Settlement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Inner_Classes/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Inner_Classes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Inner_Classes_challenge/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Inner_Classes_challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Inner_Classes_challenge/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Inner_Classes_challenge/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces/DesktopPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces/DesktopPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces/ITelephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces/ITelephone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces_challenge/ISaveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces_challenge/ISaveable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces_challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces_challenge/Monsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces_challenge/Monsters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m9_Inner_Abstract_Classes_Interfaces/Interfaces_challenge/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m9_inner_abstract_classes_interfaces/Interfaces_challenge/Players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Buchalka_Java_course_basics/pl/jaczewski/m2_String/StringType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m11_packages_scope_final_static/packages_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m11_packages_scope_final_static/packages_challenge/Main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +60,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="proofread" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m10_java_generics.Basics" />
       <module name="Buchalka_Java_course_basics" />
@@ -127,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m9_Inner_Abstract_Classes_Interfaces.Inner_Classes_challenge.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m11_packages_scope_final_static.packages_challenge.Main" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m9_Inner_Abstract_Classes_Interfaces.Inner_Classes_challenge.*" />
+          <option name="PATTERN" value="pl.jaczewski.m11_packages_scope_final_static.packages_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m9_Inner_Abstract_Classes_Interfaces.Abstract_Classes.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m10_java_generics.Generics.Main" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m9_Inner_Abstract_Classes_Interfaces.Abstract_Classes.*" />
+          <option name="PATTERN" value="pl.jaczewski.m10_java_generics.Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m10_java_generics.Generics.Main" />
+    <configuration name="MainPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m11_packages_scope_final_static.packages_challenge.MainPerson" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m10_java_generics.Generics.*" />
+          <option name="PATTERN" value="pl.jaczewski.m11_packages_scope_final_static.packages_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,26 +165,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.MainPerson" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Basics" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +232,7 @@
       <workItem from="1601924234623" duration="8825000" />
       <workItem from="1602007514667" duration="7797000" />
       <workItem from="1602097357719" duration="2849000" />
-    </task>
-    <task id="LOCAL-00022" summary="control flow statements: instrukcja 'for' (2 zadania) + instrukcja 'while' (1 zadanie)">
-      <created>1598380715235</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1598380715235</updated>
+      <workItem from="1602278505221" duration="10395000" />
     </task>
     <task id="LOCAL-00023" summary="control flow statements: instrukcja 'while' (1 zadanie)">
       <created>1598383579308</created>
@@ -631,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602098610079</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="m11_packages_scope_final_static">
+      <created>1602278780371</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1602278780372</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania)" />
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania (2))" />
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania (3))" />
     <MESSAGE value="Arrays_Lists_Autoboxing: Autoboxing challenge (skończone)" />
@@ -675,17 +620,18 @@
     <MESSAGE value="m10_Java_Generics: challenge (1)" />
     <MESSAGE value="m10_Java_Generics: challenge (3)" />
     <MESSAGE value="m10_Java_Generics: challenge (zrobione)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m10_Java_Generics: challenge (zrobione)" />
+    <MESSAGE value="m11_packages_scope_final_static" />
+    <option name="LAST_COMMIT_MESSAGE" value="m11_packages_scope_final_static" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1602026676455">
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1602281378547">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1602026676455" />
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1602281378547" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601501955646">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -694,30 +640,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1602098609914">
+    <state x="166" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1602278780124">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="326" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1602098609914" />
+    <state x="166" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1602278780124" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598653573902" />
-    <state width="915" height="307" key="GridCell.Tab.0.bottom" timestamp="1602102652447">
+    <state width="915" height="308" key="GridCell.Tab.0.bottom" timestamp="1602293784954">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1602102652447" />
-    <state width="915" height="307" key="GridCell.Tab.0.center" timestamp="1602102652446">
+    <state width="915" height="308" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1602293784954" />
+    <state width="915" height="308" key="GridCell.Tab.0.center" timestamp="1602293784954">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1602102652446" />
-    <state width="915" height="307" key="GridCell.Tab.0.left" timestamp="1602102652445">
+    <state width="915" height="308" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1602293784954" />
+    <state width="915" height="308" key="GridCell.Tab.0.left" timestamp="1602293784954">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1602102652445" />
-    <state width="915" height="307" key="GridCell.Tab.0.right" timestamp="1602102652446">
+    <state width="915" height="308" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1602293784954" />
+    <state width="915" height="308" key="GridCell.Tab.0.right" timestamp="1602293784954">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1602102652446" />
+    <state width="915" height="308" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1602293784954" />
     <state width="1807" height="238" key="GridCell.Tab.1.bottom" timestamp="1600573372187">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -742,10 +688,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602098612603">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602278782230">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1602098612603" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1602278782230" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
