@@ -5,28 +5,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-        int number = 0;
-        int result = 0;
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Please enter a number: ");
-        boolean isInt = sc.hasNextInt();
-        if (!isInt){
-            System.out.print("Invalid number. Try again: ");
-            sc.nextLine();
-        } else {
-            number = sc.nextInt();
-            sc.nextLine();
-            for (int i = 1; i <= 12; i++){
-                result = number * i;
-                System.out.println(result);
-            }
+
+        int x = scanner.nextInt();
+        scanner.nextLine();
+        for (X.x = 1; X.x <= 12; X.x++) {
+            System.out.println(X.x * x);
         }
 
     }
 }
-
+// [NOTE: Purposely used bad class and method names]
 // Write a small program to read an integer from the keyboard
 // (using Scanner) and print out the times table for that number.
 // The table should run from 1 to 12.
