@@ -1,7 +1,28 @@
 package pl.jaczewski.m11_packages_scope_final_static.scope_challenge;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int number = 0;
+        int result = 0;
+
+        System.out.print("Please enter a number: ");
+        boolean isInt = sc.hasNextInt();
+        if (!isInt){
+            System.out.print("Invalid number. Try again: ");
+            sc.nextLine();
+        } else {
+            number = sc.nextInt();
+            sc.nextLine();
+            for (int i = 1; i <= 12; i++){
+                result = number * i;
+                System.out.println(result);
+            }
+        }
 
     }
 }
