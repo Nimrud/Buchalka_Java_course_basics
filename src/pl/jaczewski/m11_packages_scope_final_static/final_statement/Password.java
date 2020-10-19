@@ -12,7 +12,9 @@ public class Password {
         return password ^ key;
     }
 
-    public void storePassword() {
+    public final void storePassword() {
+        // słowo final zapobiega nadpisaniu metody przez inną klasę
+        // ("NewPassword extends Password" -> Override Method)
         System.out.println("Saving password as " + this.encryptedPassword);
     }
 
