@@ -10,6 +10,9 @@ public class Password {
 
     private int encryptDecrypt(int password) {
         return password ^ key;
+        // ^ to XOR ("exclusive OR"), czyli funkcja alternatywy rozłącznej
+        // jest wykonywana na bitach!!!
+        // https://stackoverflow.com/questions/14526584/what-does-the-xor-operator-do
     }
 
     public final void storePassword() {
