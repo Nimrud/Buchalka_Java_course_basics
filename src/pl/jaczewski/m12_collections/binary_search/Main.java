@@ -1,4 +1,4 @@
-package pl.jaczewski.m12_collections.introduction;
+package pl.jaczewski.m12_collections.binary_search;
 
 public class Main {
     public static void main(String[] args) {
