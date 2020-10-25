@@ -1,12 +1,28 @@
-package pl.jaczewski.m12_collections.binary_search;
+package pl.jaczewski.m12_collections.binary_search_comparable_comparator;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Theatre {
     private final String theatreName;
     private List<Seat> seats = new ArrayList<>();
+
+    // Comparator to obiekt pozwalający porównanie,
+    // ale w przeciwieństwie do interfejsu Comparable, może być ich kilka
+    static final Comparator<Seat> PRICE_ORDER;
+    static {
+        PRICE_ORDER = new Comparator<Seat>() {
+            @Override
+            public int compare(Seat seat1, Seat seat2) {
+                if (seat1.getPrice() < seat2.getPrice()) {
+                    return -1;
+                } else if (seat1.getPrice() > seat2.getPrice()) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
+        };
+    }
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;
@@ -14,7 +30,15 @@ public class Theatre {
         int lastRow = 'A' + (numRows - 1);
         for (char row = 'A'; row <= lastRow; row++){
             for(int seatNum = 1; seatNum <= seatsPerRow; seatNum++){
-                Seat seat = new Seat(row + String.format("%02d", seatNum));
+                double price = 12.00;
+
+                if ((row < 'D') && (seatNum >= 4 && seatNum <= 9)){
+                    price = 14.00;
+                } else if ((row > 'F') || (seatNum < 4 || seatNum > 9)){
+                    price = 9.00;
+                }
+
+                Seat seat = new Seat(row + String.format("%02d", seatNum), price);
                 seats.add(seat);
             }
         }
@@ -25,7 +49,7 @@ public class Theatre {
     }
 
     public boolean reserveSeat(String seatNumber){
-        Seat requestedSeat = new Seat(seatNumber);
+        Seat requestedSeat = new Seat(seatNumber, 0);
         // binarySearch() jest dużo bardziej efektywne niż przeszukiwanie wszystkich elementów pętlą for
         // (dzieli listę na pół i sprawdza, czy szukany element jest w tej połówce, następnie znów na pół itd.)
         // ale wymaga zastosowania interfejsu Comparable
@@ -33,7 +57,7 @@ public class Theatre {
         if (foundSeat >= 0){
             return seats.get(foundSeat).reserve();
         } else {
-            System.out.println("Thre is no seat " + seatNumber);
+            System.out.println("There is no seat " + seatNumber);
             return false;
         }
 
@@ -53,18 +77,18 @@ public class Theatre {
     }
 
     // dla przetestowania poprawności kodu:
-    public void getSeats(){
-        for (Seat seat: seats){
-            System.out.println(seat.getSeatNumber());
-        }
+    public Collection<Seat> getSeats(){
+        return seats;
     }
 
-    private class Seat implements Comparable<Seat>{
+    public class Seat implements Comparable<Seat>{
         private final String seatNumber;
+        private double price;
         private boolean reserved = false;
 
-        public Seat(String seatNumber) {
+        public Seat(String seatNumber, double price) {
             this.seatNumber = seatNumber;
+            this.price = price;
         }
 
         @Override
@@ -95,6 +119,10 @@ public class Theatre {
 
         public String getSeatNumber() {
             return seatNumber;
+        }
+
+        public double getPrice() {
+            return price;
         }
     }
 }

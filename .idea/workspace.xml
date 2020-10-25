@@ -27,6 +27,7 @@
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/binary_search/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/binary_search/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/binary_search/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/binary_search/Theatre.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m12_collections.binary_search.Main" />
-      <module name="Buchalka_Java_course_basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m12_collections.binary_search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m11_packages_scope_final_static.scope_challenge.Main" />
       <module name="Buchalka_Java_course_basics" />
@@ -125,6 +113,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.jaczewski.m11_packages_scope_final_static.final_statement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m12_collections.binary_search_comparable_comparator.Main" />
+      <module name="Buchalka_Java_course_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jaczewski.m12_collections.binary_search_comparable_comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,14 +225,7 @@
       <workItem from="1603199982087" duration="2206000" />
       <workItem from="1603292922477" duration="4358000" />
       <workItem from="1603486677962" duration="2175000" />
-      <workItem from="1603575141913" duration="1194000" />
-    </task>
-    <task id="LOCAL-00031" summary="OOP: constructors (2 zadania)">
-      <created>1598962720294</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1598962720294</updated>
+      <workItem from="1603575141913" duration="7418000" />
     </task>
     <task id="LOCAL-00032" summary="OOP: constructors (2 kolejne zadania)">
       <created>1598972467765</created>
@@ -569,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603489173994</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="m12_collections: binary search (2)">
+      <created>1603576441585</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1603576441586</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: Interface challenge - w trakcie rozwiązywania (2)" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: Interface challenge - zrobione" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: inner classes - anonymous class" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (w trakcie - 1)" />
@@ -613,17 +613,18 @@
     <MESSAGE value="m11_packages_scope_final_static: final statement exercise 2" />
     <MESSAGE value="m12_collections: introduction" />
     <MESSAGE value="m12_collections: binary search (1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: binary search (1)" />
+    <MESSAGE value="m12_collections: binary search (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: binary search (2)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1603487911267">
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1603623546524">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1603487911267" />
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1603623546524" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601501955646">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -632,10 +633,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1603489173831">
+    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1603576441356">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1603489173831" />
+    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1603576441356" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -644,22 +645,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="832" y="326" width="506" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1602370192886" />
-    <state width="965" height="195" key="GridCell.Tab.0.bottom" timestamp="1603489226664">
+    <state width="965" height="195" key="GridCell.Tab.0.bottom" timestamp="1603629360597">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1603489226664" />
-    <state width="965" height="195" key="GridCell.Tab.0.center" timestamp="1603489226664">
+    <state width="965" height="195" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1603629360597" />
+    <state width="965" height="195" key="GridCell.Tab.0.center" timestamp="1603629360596">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1603489226664" />
-    <state width="965" height="195" key="GridCell.Tab.0.left" timestamp="1603489226664">
+    <state width="965" height="195" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1603629360596" />
+    <state width="965" height="195" key="GridCell.Tab.0.left" timestamp="1603629360596">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1603489226664" />
-    <state width="965" height="195" key="GridCell.Tab.0.right" timestamp="1603489226664">
+    <state width="965" height="195" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1603629360596" />
+    <state width="965" height="195" key="GridCell.Tab.0.right" timestamp="1603629360597">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1603489226664" />
+    <state width="965" height="195" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1603629360597" />
     <state width="1807" height="238" key="GridCell.Tab.1.bottom" timestamp="1602544654217">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -684,10 +685,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603489175612">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603576443340">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603489175612" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603576443340" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
