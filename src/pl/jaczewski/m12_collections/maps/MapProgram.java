@@ -34,6 +34,12 @@ public class MapProgram {
             System.out.println("HTML not removed, key/value not found");
         }
 
+        // podmienianie wartości:
+        languages.replace("HTML", "HyperText Markup Language");
+
+        // podmienianie wartości, jeśli stara miała daną wartość (drugi parametr):
+        languages.replace("HTML", "HyperText Markup Language", "not a programming language!");
+
         // keySet - używany, aby wyświetlić wszystkie pary klucz-wartość
         // lista jest nieuporządkowana!
         System.out.println("======");
