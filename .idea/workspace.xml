@@ -26,6 +26,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game/Main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -64,6 +67,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -214,14 +222,7 @@
       <workItem from="1603749215089" duration="2438000" />
       <workItem from="1603823894807" duration="2582000" />
       <workItem from="1603923139614" duration="3540000" />
-      <workItem from="1604097787854" duration="422000" />
-    </task>
-    <task id="LOCAL-00038" summary="Arrays_Lists_Autoboxing: tablice (+challenge, w trakcie rozwiązywania)">
-      <created>1599342488604</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1599342488604</updated>
+      <workItem from="1604097787854" duration="2216000" />
     </task>
     <task id="LOCAL-00039" summary="Arrays_Lists_Autoboxing: tablice (+challenge, rozwiązany)">
       <created>1599350227330</created>
@@ -559,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603926955422</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="m12_collections: maps - adventure game (dodanie mapy lokacji)">
+      <created>1604098449850</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1604098449850</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +586,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: abstract classes challenge (1)" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: abstract classes challenge (2)" />
     <MESSAGE value="m9_Inner_Abstract_Classes_Interfaces: abstract classes challenge (3)" />
     <MESSAGE value="m10_Java_Generics: podstawy" />
@@ -603,7 +610,8 @@
     <MESSAGE value="m12_collections: maps (3)" />
     <MESSAGE value="m12_collections: maps (4)" />
     <MESSAGE value="m12_collections: maps - adventure game (1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: maps - adventure game (1)" />
+    <MESSAGE value="m12_collections: maps - adventure game (dodanie mapy lokacji)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: maps - adventure game (dodanie mapy lokacji)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -622,10 +630,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1603926955344">
+    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2" timestamp="1604098449646">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1603926955344" />
+    <state x="67" y="27" width="1027" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1604098449646" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -634,22 +642,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="832" y="326" width="506" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1602370192886" />
-    <state width="965" height="195" key="GridCell.Tab.0.bottom" timestamp="1603951673210">
+    <state width="965" height="195" key="GridCell.Tab.0.bottom" timestamp="1604099688987">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1603951673210" />
-    <state width="965" height="195" key="GridCell.Tab.0.center" timestamp="1603951673210">
+    <state width="965" height="195" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604099688987" />
+    <state width="965" height="195" key="GridCell.Tab.0.center" timestamp="1604099688986">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1603951673210" />
-    <state width="965" height="195" key="GridCell.Tab.0.left" timestamp="1603951673210">
+    <state width="965" height="195" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604099688986" />
+    <state width="965" height="195" key="GridCell.Tab.0.left" timestamp="1604099688986">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1603951673210" />
-    <state width="965" height="195" key="GridCell.Tab.0.right" timestamp="1603951673210">
+    <state width="965" height="195" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604099688986" />
+    <state width="965" height="195" key="GridCell.Tab.0.right" timestamp="1604099688987">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="965" height="195" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1603951673210" />
+    <state width="965" height="195" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604099688987" />
     <state width="1807" height="238" key="GridCell.Tab.1.bottom" timestamp="1602544654217">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -674,10 +682,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603926956870">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604098451677">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603926956870" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604098451677" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
