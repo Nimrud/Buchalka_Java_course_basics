@@ -9,6 +9,14 @@ public class Main {
     private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
 
     public static void main(String[] args) {
+        // Challenge:
+        // Change the program to allow players to type full words, or phrases, then move to the
+        // correct location based upon their input.
+        // The player should be able to type commands such as "Go West", "run South", or just "East"
+        // and the program will move to the appropriate location if there is one.  As at present, an
+        // attempt to move in an invalid direction should print a message and remain in the same place.
+        //
+        // Single letter commands (N, W, S, E, Q) should still be available.
         Scanner scanner = new Scanner(System.in);
 
         locations.put(0, new Location(0, "You are sitting in front of a computer learning Java"));
@@ -53,10 +61,27 @@ public class Main {
                 System.out.print(exit + ", ");
             }
             System.out.println();
+            System.out.print("Your choice: ");
 
-            String direction = scanner.nextLine().toUpperCase();
-            if (exits.containsKey(direction)){
-                loc = exits.get(direction);
+            String direction = scanner.nextLine().toLowerCase();
+
+            //Challenge:
+            String[] input = direction.split(" ");
+            String directionExtracted = "";
+            for (String i: input){
+                if (i == "east" || i == "e"){
+                    directionExtracted = "E";
+                } else if (i == "west" || i == "w"){
+                    directionExtracted = "W";
+                } else if (i == "south" || i == "s"){
+                    directionExtracted = "S";
+                } else if (i == "north" || i == "n"){
+                    directionExtracted = "N";
+                }
+            }
+
+            if (exits.containsKey(directionExtracted)){
+                loc = exits.get(directionExtracted);
             } else {
                 System.out.println("You cannot go in this direction!");
             }
