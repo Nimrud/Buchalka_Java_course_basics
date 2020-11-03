@@ -29,7 +29,7 @@ public class Main {
         // aby zobaczyć schemat poruszania się po lokacjach - spójrz na plik Locations_map.png
         locations.get(1).addExit("W", 2);
         locations.get(1).addExit("E", 3);
-        locations.get(1).addExit("S", 5);
+        locations.get(1).addExit("S", 4);
         locations.get(1).addExit("N", 5);
         //locations.get(1).addExit("Q", 0);
 
@@ -49,15 +49,15 @@ public class Main {
         // Q (wyjście) pojawia się w każdej lokacji, więc lepiej umieścić je w konstruktorze klasy Location
 
         int loc = 1;
-        while (true){
+        while (true) {
             System.out.println(locations.get(loc).getDescription());
-            if (loc ==0){
+            if (loc == 0) {
                 break;
             }
 
             Map<String, Integer> exits = locations.get(loc).getExits();
             System.out.print("Available exits: ");
-            for (String exit: exits.keySet()){
+            for (String exit : exits.keySet()) {
                 System.out.print(exit + ", ");
             }
             System.out.println();
@@ -66,25 +66,67 @@ public class Main {
             String direction = scanner.nextLine().toLowerCase();
 
             //Challenge:
-            String[] input = direction.split(" ");
-            String directionExtracted = "";
-            for (String i: input){
-                if (i == "east" || i == "e"){
-                    directionExtracted = "E";
-                } else if (i == "west" || i == "w"){
-                    directionExtracted = "W";
-                } else if (i == "south" || i == "s"){
-                    directionExtracted = "S";
-                } else if (i == "north" || i == "n"){
-                    directionExtracted = "N";
+
+            // pierwsze podejście (działające, ale z powtarzającym się kodem):
+
+            /*
+            if (direction.matches(".*\\beast\\b.*") || direction.matches(".*\\be\\b.*")) {
+                if (exits.containsKey("E")) {
+                    loc = exits.get("E");
+                } else {
+                    System.out.println("You cannot go in this direction!");
                 }
+            } else if (direction.matches(".*\\bwest\\b.*") || direction.matches(".*\\bw\\b.*")) {
+                if (exits.containsKey("W")) {
+                    loc = exits.get("W");
+                } else {
+                    System.out.println("You cannot go in this direction!");
+                }
+            } else if (direction.matches(".*\\bnorth\\b.*") || direction.matches(".*\\bn\\b.*")) {
+                if (exits.containsKey("N")) {
+                    loc = exits.get("N");
+                } else {
+                    System.out.println("You cannot go in this direction!");
+                }
+            } else if (direction.matches(".*\\bsouth\\b.*") || direction.matches(".*\\bs\\b.*")) {
+                if (exits.containsKey("S")) {
+                    loc = exits.get("S");
+                } else {
+                    System.out.println("You cannot go in this direction!");
+                }
+            } else if (direction.matches(".*\\bquit\\b.*") || direction.matches(".*\\bq\\b.*")) {
+                if (exits.containsKey("Q")) {
+                    loc = exits.get("Q");
+                } else {
+                    System.out.println("You cannot go in this direction!");
+                }
+            } else {
+                System.out.println("No valid direction found");
             }
 
-            if (exits.containsKey(directionExtracted)){
-                loc = exits.get(directionExtracted);
+             */
+
+            if (exits.containsKey(extractDirection(direction))){
+                loc = exits.get(extractDirection(direction));
             } else {
                 System.out.println("You cannot go in this direction!");
             }
+        }
+    }
+
+    public static String extractDirection(String input) {
+        if (input.matches(".*\\beast\\b.*") || input.matches(".*\\be\\b.*")) {
+            return "E";
+        } else if (input.matches(".*\\bwest\\b.*") || input.matches(".*\\bw\\b.*")) {
+            return "W";
+        } else if (input.matches(".*\\bnorth\\b.*") || input.matches(".*\\bn\\b.*")) {
+            return "N";
+        } else if (input.matches(".*\\bsouth\\b.*") || input.matches(".*\\bs\\b.*")) {
+            return "S";
+        } else if (input.matches(".*\\bquit\\b.*") || input.matches(".*\\bq\\b.*")) {
+            return "Q";
+        } else {
+            return " ";
         }
     }
 }
