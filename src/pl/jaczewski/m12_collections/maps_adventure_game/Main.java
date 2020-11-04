@@ -115,6 +115,10 @@ public class Main {
     }
 
     public static String extractDirection(String input) {
+        // Gdy szukamy stringa w stringu:
+        // .*  -> 0 lub więcej dowolnych znaków [przykład: ".*BREAK.*"] (wykryje też słowo "BREAKFAST"!)
+        // jeśli chcemy wykryć dokładnie dane słowo, to trzeba to opakować w \\b [przykład: ".*\\bBREAK\\b.*"]
+        // warto na samym początku zamienić stringa za pomocą .toLowerCase
         if (input.matches(".*\\beast\\b.*") || input.matches(".*\\be\\b.*")) {
             return "E";
         } else if (input.matches(".*\\bwest\\b.*") || input.matches(".*\\bw\\b.*")) {
