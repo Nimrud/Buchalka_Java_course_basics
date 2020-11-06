@@ -25,10 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/immutable_classes/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/immutable_classes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sets/HeavenlyBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sets/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game/Main.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +73,13 @@
       <recent name="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/maps_adventure_game" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m12_collections.maps_adventure_game.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m12_collections.sets.Main" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m12_collections.maps_adventure_game.*" />
+          <option name="PATTERN" value="pl.jaczewski.m12_collections.sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m11_packages_scope_final_static.scope_challenge.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jaczewski.m12_collections.maps_adventure_game.Main" />
       <module name="Buchalka_Java_course_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.jaczewski.m11_packages_scope_final_static.scope_challenge.*" />
+          <option name="PATTERN" value="pl.jaczewski.m12_collections.maps_adventure_game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.MapProgram" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -225,14 +224,7 @@
       <workItem from="1604209664409" duration="615000" />
       <workItem from="1604337639203" duration="10628000" />
       <workItem from="1604393191159" duration="1472000" />
-      <workItem from="1604530063153" duration="2202000" />
-    </task>
-    <task id="LOCAL-00043" summary="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania)">
-      <created>1599613024181</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1599613024181</updated>
+      <workItem from="1604530063153" duration="5264000" />
     </task>
     <task id="LOCAL-00044" summary="Arrays_Lists_Autoboxing: Autoboxing challenge (w trakcie rozwiązywania (2))">
       <created>1599673493375</created>
@@ -570,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604365711178</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="m12_collections: maps - immutable classes">
+      <created>1604555658539</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1604555658540</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +588,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m10_Java_Generics: podstawy (3)" />
     <MESSAGE value="m10_Java_Generics: challenge (1)" />
     <MESSAGE value="m10_Java_Generics: challenge (3)" />
     <MESSAGE value="m10_Java_Generics: challenge (zrobione)" />
@@ -614,17 +612,18 @@
     <MESSAGE value="m12_collections: maps - adventure game challenge (w trakcie rozwiązywania, 1)" />
     <MESSAGE value="m12_collections: maps - adventure game challenge (rozwiązane)" />
     <MESSAGE value="m12_collections: maps - adventure game challenge (rozwiązane, dodanie komentarza)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: maps - adventure game challenge (rozwiązane, dodanie komentarza)" />
+    <MESSAGE value="m12_collections: maps - immutable classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: maps - immutable classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597364693456" />
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1603925573832">
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1604633858458">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1603925573832" />
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1604633858458" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601501955646">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -633,10 +632,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1604365711115">
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1604555658310">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1604365711115" />
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1604555658310" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -645,22 +644,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="832" y="326" width="506" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1602370192886" />
-    <state width="955" height="194" key="GridCell.Tab.0.bottom" timestamp="1604403549572">
+    <state width="962" height="195" key="GridCell.Tab.0.bottom" timestamp="1604635426697">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="955" height="194" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604403549572" />
-    <state width="955" height="194" key="GridCell.Tab.0.center" timestamp="1604403549572">
+    <state width="962" height="195" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604635426697" />
+    <state width="962" height="195" key="GridCell.Tab.0.center" timestamp="1604635426697">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="955" height="194" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604403549572" />
-    <state width="955" height="194" key="GridCell.Tab.0.left" timestamp="1604403549571">
+    <state width="962" height="195" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604635426697" />
+    <state width="962" height="195" key="GridCell.Tab.0.left" timestamp="1604635426696">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="955" height="194" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604403549571" />
-    <state width="955" height="194" key="GridCell.Tab.0.right" timestamp="1604403549572">
+    <state width="962" height="195" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604635426696" />
+    <state width="962" height="195" key="GridCell.Tab.0.right" timestamp="1604635426697">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="955" height="194" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604403549572" />
+    <state width="962" height="195" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604635426697" />
     <state width="1807" height="310" key="GridCell.Tab.1.bottom" timestamp="1604371052947">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -685,10 +684,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604530150870">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604555660496">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604530150870" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604555660496" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
