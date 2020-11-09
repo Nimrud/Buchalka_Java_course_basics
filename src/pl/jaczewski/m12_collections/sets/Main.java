@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class Main {
+    // w Setach trzeba nadpisać metody equals() oraz hashcode(), inaczej jest możliwość zapisania duplikatów
     private static Map<String, HeavenlyBody> solarSystem = new HashMap<>();
     private static Set<HeavenlyBody> planets = new HashSet<>();
 
@@ -100,5 +101,13 @@ public class Main {
         for (HeavenlyBody moon: allMoons){
             System.out.println("\t" + moon.getName());
         }
+
+        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+        planets.add(pluto);
+
+        for (HeavenlyBody planet : planets){
+            System.out.println(planet.getName() + ": " + planet.getOrbitalPeriod());
+        }
+
     }
 }
