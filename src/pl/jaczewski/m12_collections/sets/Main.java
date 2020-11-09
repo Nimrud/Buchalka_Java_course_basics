@@ -90,5 +90,15 @@ public class Main {
         for (HeavenlyBody jupiterMoon: body.getSatellites()){
             System.out.println("\t" + jupiterMoon.getName());
         }
+
+        Set<HeavenlyBody> allMoons = new HashSet<>();
+        for (HeavenlyBody planet: planets){
+            allMoons.addAll(planet.getSatellites());
+        }
+
+        System.out.println("All moons in Solar System:");
+        for (HeavenlyBody moon: allMoons){
+            System.out.println("\t" + moon.getName());
+        }
     }
 }
