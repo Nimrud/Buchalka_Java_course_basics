@@ -74,6 +74,14 @@ public class Main {
         System.out.println("Symmetric difference:");
         printSet(newUnion);
 
+        // containsAll() - zwraca wartość true/false
+        if (divine.containsAll(nature)){
+            System.out.println("Nature is a subset of Divine");
+        }
+
+        if (divine.containsAll(newIntersection)){
+            System.out.println("Intersection is a subset of Divine");
+        }
 
     }
 
