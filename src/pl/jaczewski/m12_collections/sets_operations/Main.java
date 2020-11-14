@@ -40,5 +40,48 @@ public class Main {
         for (String s : words){
             System.out.println(s);
         }
+
+        // Asymmetric difference - coś występuje w jednym Secie, ale nie występuje w drugim:
+        Set<String> nature = new HashSet<>();
+        Set<String> divine = new HashSet<>();
+
+        String[] natureWords = {"nature", "unknown", "art", "all", "is"};
+        nature.addAll(Arrays.asList(natureWords));
+
+        String[] divineWords = {"divine", "forgive", "human", "is"};
+        divine.addAll(Arrays.asList(divineWords));
+
+        System.out.println("nature - divine:");
+        Set<String> diff1 = new HashSet<>(nature);
+        diff1.removeAll(divine);
+        printSet(diff1);
+
+        System.out.println("divine-nature:");
+        Set<String> diff2 = new HashSet<>(divine);
+        diff2.removeAll(nature);
+        printSet(diff2);
+
+        // Symmetric difference - coś występuje w jednym Secie albo drugim (ale nie występuje w obu naraz!)
+        Set<String> newUnion = new HashSet<>(divine);
+        newUnion.addAll(nature);
+
+        // ustalamy elementy wspólne dla obu Setów:
+        Set<String> newIntersection = new HashSet<>(divine);
+        newIntersection.retainAll(nature);
+//        System.out.println("New Intersection:");
+//        printSet(newIntersection);
+        newUnion.removeAll(newIntersection);
+        System.out.println("Symmetric difference:");
+        printSet(newUnion);
+
+
+    }
+
+    private static void printSet(Set<String> set){
+        System.out.print("\t");
+        for (String s : set){
+            System.out.print(s + " ");
+        }
+        System.out.println();
     }
 }
