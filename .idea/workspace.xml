@@ -231,14 +231,7 @@
       <workItem from="1604944949833" duration="2142000" />
       <workItem from="1605009219718" duration="1438000" />
       <workItem from="1605191555565" duration="4110000" />
-      <workItem from="1605391544431" duration="2361000" />
-    </task>
-    <task id="LOCAL-00048" summary="Arrays_Lists_Autoboxing: LinkedList - challenge - w trakcie rozwiązywania (1)">
-      <created>1600032771606</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1600032771606</updated>
+      <workItem from="1605391544431" duration="2685000" />
     </task>
     <task id="LOCAL-00049" summary="Arrays_Lists_Autoboxing: LinkedList - challenge - w trakcie rozwiązywania (1)">
       <created>1600120163191</created>
@@ -576,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605204787814</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="m12_collections: maps - Sets and HashSets (5): Asymmetric &amp; Symmetric difference">
+      <created>1605394223449</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1605394223450</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,8 +595,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m11_packages_scope_final_static: packages challenge (1)" />
-    <MESSAGE value="m11_packages_scope_final_static: packages (1)" />
     <MESSAGE value="m11_packages_scope_final_static: scope challenge (1)" />
     <MESSAGE value="m11_packages_scope_final_static: scope challenge (zrobione)" />
     <MESSAGE value="m11_packages_scope_final_static: final statement exercise" />
@@ -620,7 +618,9 @@
     <MESSAGE value="m12_collections: maps - Sets and HashSets (2)" />
     <MESSAGE value="m12_collections: maps - Sets and HashSets (3), dodanie overide'a metod equals() i hashcode()" />
     <MESSAGE value="m12_collections: maps - Sets and HashSets (4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: maps - Sets and HashSets (4)" />
+    <MESSAGE value="m12_collections: maps - Sets and HashSets (5)" />
+    <MESSAGE value="m12_collections: maps - Sets and HashSets (5): Asymmetric &amp; Symmetric difference" />
+    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: maps - Sets and HashSets (5): Asymmetric &amp; Symmetric difference" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="354" width="564" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597364693456">
@@ -639,10 +639,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1605204787628">
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1605394223224">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1605204787628" />
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1605394223224" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -691,10 +691,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605204790102">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605394229060">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1605204790102" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1605394229060" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
