@@ -8,7 +8,17 @@ public class SetChallenge {
 
     public static void main(String[] args) {
         HeavenlyBody mercury = new HeavenlyBody("Mercury", HeavenlyBody.BodyType.PLANET, 88);
+        objects.add(mercury);
         HeavenlyBody venus = new HeavenlyBody("Venus", HeavenlyBody.BodyType.PLANET, 225);
+        objects.add(venus);
+        HeavenlyBody betaMinor1 = new HeavenlyBody("Beta Minor", HeavenlyBody.BodyType.PLANET, 1000);
+        objects.add(betaMinor1);
+        HeavenlyBody betaMinor2 = new HeavenlyBody("Beta Minor", HeavenlyBody.BodyType.MOON, 1000);
+        objects.add(betaMinor2);
+
+        for (HeavenlyBody o: objects){
+            System.out.println(o.getName() + ": " + o.getBodyType());
+        }
     }
 }
 
