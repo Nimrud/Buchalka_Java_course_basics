@@ -20,6 +20,10 @@ public final class HeavenlyBody {
         PLANET, STAR, MOON
     }
 
+    public BodyType getBodyType() {
+        return bodyType;
+    }
+
     public String getName() {
         return name;
     }
@@ -55,6 +59,6 @@ public final class HeavenlyBody {
     @Override
     public int hashCode() {
         System.out.println("hashcode called");
-        return this.name.hashCode() + 57;
+        return this.name.hashCode() + 57 + this.bodyType.hashCode();
     }
 }
