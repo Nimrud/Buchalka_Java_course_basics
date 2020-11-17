@@ -53,7 +53,13 @@ public final class HeavenlyBody {
         }
 
         String objName = ((HeavenlyBody) obj).getName();
-        return this.name.equals(objName);
+        BodyType objtype = ((HeavenlyBody) obj).getBodyType();
+        if ((this.name.equals(objName)) && (this.bodyType.equals(objtype))){
+            return true;
+        } else {
+            return false;
+        }
+        //return this.name.equals(objName);
     }
 
     @Override

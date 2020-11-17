@@ -19,6 +19,8 @@ public class SetChallenge {
         for (HeavenlyBody o: objects){
             System.out.println(o.getName() + ": " + o.getBodyType());
         }
+
+        System.out.println(betaMinor1.equals(betaMinor2));
     }
 }
 
