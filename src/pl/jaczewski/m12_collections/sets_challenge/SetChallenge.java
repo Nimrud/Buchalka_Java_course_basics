@@ -20,7 +20,10 @@ public class SetChallenge {
             System.out.println(o.getName() + ": " + o.getBodyType());
         }
 
+        // Equals method test:
         System.out.println(betaMinor1.equals(betaMinor2));
+
+        System.out.println(mercury.toString());
     }
 }
 
