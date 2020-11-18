@@ -63,7 +63,7 @@ public class HeavenlyBody {
 
     @Override
     public final int hashCode() {
-        System.out.println("hashcode called");
+        //System.out.println("hashcode called");
         return this.name.hashCode() + 57 + this.bodyType.hashCode();
     }
 

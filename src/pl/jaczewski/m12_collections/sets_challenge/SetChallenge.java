@@ -1,29 +1,59 @@
 package pl.jaczewski.m12_collections.sets_challenge;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class SetChallenge {
     public static Set<HeavenlyBody> objects = new HashSet<>();
+    public static Set<HeavenlyBody> planets = new HashSet<>();
+    private static Map<String, HeavenlyBody> solarSystem = new HashMap<>();
 
     public static void main(String[] args) {
-        HeavenlyBody mercury = new HeavenlyBody("Mercury", HeavenlyBody.BodyType.PLANET, 88);
+        HeavenlyBody mercury = new Planet("Mercury", 88);
         objects.add(mercury);
-        HeavenlyBody venus = new HeavenlyBody("Venus", HeavenlyBody.BodyType.PLANET, 225);
+        planets.add(mercury);
+        HeavenlyBody venus = new Planet("Venus", 225);
         objects.add(venus);
+        planets.add(venus);
         HeavenlyBody betaMinor1 = new HeavenlyBody("Beta Minor", HeavenlyBody.BodyType.PLANET, 1000);
         objects.add(betaMinor1);
+        planets.add(betaMinor1);
         HeavenlyBody betaMinor2 = new HeavenlyBody("Beta Minor", HeavenlyBody.BodyType.MOON, 1000);
         objects.add(betaMinor2);
 
+        // equals method test:
+        System.out.println("\t" + betaMinor1.equals(betaMinor2));
+        //toString method test:
+        System.out.println(mercury.toString());
+
+        HeavenlyBody earth = new Planet("Earth", 365);
+        objects.add(earth);
+        planets.add(earth);
+
+        HeavenlyBody moon = new Moon("Moon", 27);
+        objects.add(moon);
+        earth.addSatellite(moon);
+
+        HeavenlyBody mars = new Planet("Mars", 687);
+        objects.add(mars);
+        planets.add(mars);
+
+        HeavenlyBody deimos = new Moon("Deimos", 1.3);
+        objects.add(deimos);
+        mars.addSatellite(deimos);
+        mars.addSatellite(earth);   // nie działa, bo w podklasie Planet ograniczyłem możliwość dodania księżyca tylko do obiektów klasy Księżyc
+
+        System.out.println("--------");
+        for (HeavenlyBody p : planets){
+            System.out.println(p.getName() + ": " + p.getSatellites());
+        }
+
+        System.out.println("=========");
         for (HeavenlyBody o: objects){
             System.out.println(o.getName() + ": " + o.getBodyType());
         }
-
-        // Equals method test:
-        System.out.println(betaMinor1.equals(betaMinor2));
-
-        System.out.println(mercury.toString());
     }
 }
 
