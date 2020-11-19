@@ -14,19 +14,34 @@ public class SetChallenge {
         HeavenlyBody mercury = new Planet("Mercury", 88);
         objects.add(mercury);
         planets.add(mercury);
+            // dodanie obiektu do Mapy solarSystem wymagałoby teraz zmiany podejścia, bo tę samą nazwę mogą mieć 2 różne obiekty różnych typów
+            // można to zrobić np. poprzez załączenie do pary klucz-wartość nie tylko samej nazwy obiektu (w kluczu), ale też jego typu:
+            solarSystem.put(mercury.getName()+"_"+mercury.getBodyType(), mercury);
+
         HeavenlyBody venus = new Planet("Venus", 225);
         objects.add(venus);
         planets.add(venus);
+            solarSystem.put(venus.getName()+"_"+venus.getBodyType(), venus);
+
         HeavenlyBody betaMinor1 = new HeavenlyBody("Beta Minor", HeavenlyBody.BodyType.PLANET, 1000);
         objects.add(betaMinor1);
         planets.add(betaMinor1);
-        HeavenlyBody betaMinor2 = new HeavenlyBody("Beta Minor", HeavenlyBody.BodyType.MOON, 1000);
-        objects.add(betaMinor2);
+            solarSystem.put(betaMinor1.getName()+"_"+betaMinor1.getBodyType(), betaMinor1);
 
-        // equals method test:
+        HeavenlyBody betaMinor2 = new HeavenlyBody("Beta Minor", HeavenlyBody.BodyType.MOON, 888);
+        objects.add(betaMinor2);
+            solarSystem.put(betaMinor2.getName()+"_"+betaMinor2.getBodyType(), betaMinor2);
+
+        System.out.println("Solar System objects:");
+        for (String s : solarSystem.keySet()){
+            System.out.println(s + ": " + solarSystem.get(s));
+        }
+
+        // equals method test (test nr 2 z polecenia poniżej):
         System.out.println("\t" + betaMinor1.equals(betaMinor2));
+        System.out.println("\t" + betaMinor2.equals(betaMinor1));
         //toString method test:
-        System.out.println(mercury.toString());
+        System.out.println(mercury);
 
         HeavenlyBody earth = new Planet("Earth", 365);
         objects.add(earth);
@@ -40,6 +55,11 @@ public class SetChallenge {
         objects.add(mars);
         planets.add(mars);
 
+        // próba dodania nowego obiektu o tej samej nazwie i klasie (test nr 3 z polecenia poniżej)
+        HeavenlyBody mars2 = new Planet("Mars", 999);
+        objects.add(mars2);
+        planets.add(mars2);
+
         HeavenlyBody deimos = new Moon("Deimos", 1.3);
         objects.add(deimos);
         mars.addSatellite(deimos);
@@ -52,7 +72,8 @@ public class SetChallenge {
 
         System.out.println("=========");
         for (HeavenlyBody o: objects){
-            System.out.println(o.getName() + ": " + o.getBodyType());
+            // dzięki nadpisaniu metody toString możemy tu skrócić zapis:
+            System.out.println(o);
         }
     }
 }
