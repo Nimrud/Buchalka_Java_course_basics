@@ -25,7 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34d1e3-c676-412a-bcf6-acf1cabf7ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sorted_collections/Basket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
@@ -138,17 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SetChallenge" />
@@ -234,14 +222,8 @@
       <workItem from="1605724543458" duration="10411000" />
       <workItem from="1605797972301" duration="7313000" />
       <workItem from="1605899531065" duration="602000" />
-      <workItem from="1605998077169" duration="627000" />
-    </task>
-    <task id="LOCAL-00057" summary="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (zrobione)">
-      <created>1601156372211</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1601156372212</updated>
+      <workItem from="1605998077169" duration="1381000" />
+      <workItem from="1606167450857" duration="619000" />
     </task>
     <task id="LOCAL-00058" summary="m9_Inner_Abstract_Classes_Interfaces: inner classes challenge (zrobione)">
       <created>1601159035903</created>
@@ -579,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605831358059</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="m12_collections: sorted collections (3)">
+      <created>1605998857592</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1605998857593</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m12_collections: maps (1)" />
     <MESSAGE value="m12_collections: maps (2)" />
     <MESSAGE value="m12_collections: maps (3)" />
     <MESSAGE value="m12_collections: maps (4)" />
@@ -623,7 +611,8 @@
     <MESSAGE value="m12_collections: maps - Sets challenge (zrobione)" />
     <MESSAGE value="m12_collections: sorted collections (1)" />
     <MESSAGE value="m12_collections: sorted collections (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: sorted collections (2)" />
+    <MESSAGE value="m12_collections: sorted collections (3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: sorted collections (3)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="886" y="129" width="1024" height="845" key="#Project_Structure" timestamp="1605825065399">
@@ -646,10 +635,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1605831357964">
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1605998857401">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1605831357964" />
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1605998857401" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -698,10 +687,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1182" y="464" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1597885992343" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605831359606">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605998859345">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1605831359606" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1605998859345" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597368207665">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
