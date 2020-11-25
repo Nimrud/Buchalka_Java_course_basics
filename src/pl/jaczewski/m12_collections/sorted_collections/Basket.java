@@ -6,6 +6,7 @@ import java.util.Map;
 
 public class Basket {
     private final String name;
+    //lista zakupowa: key to artykuł ze sklepu, value to liczba sztuk, którą chcemy kupić
     private final Map<StockItem, Integer> list;
 
     public Basket(String name) {
@@ -15,6 +16,8 @@ public class Basket {
 
     public int addToBasket(StockItem item, int quantity){
         if ((item != null) && (quantity > 0)){
+            //sprawdzamy, czy w koszyku znajduje się już jakiś przedmiot tego rodzaju
+            // jeśli tak, to dokładamy do niego wybraną liczbę szt.
             int inBasket = list.getOrDefault(item, 0);
             list.put(item, inBasket + quantity);
             return inBasket;
