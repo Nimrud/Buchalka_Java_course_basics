@@ -1,14 +1,15 @@
 package pl.jaczewski.m12_collections.sorted_collections;
 
 import java.util.Collections;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class StockList {
     private final Map<String, StockItem> list;
 
     public StockList() {
-        this.list = new HashMap<>();
+        // LinkedHashMap (w odróżnieniu od HashMap) używa przedmiotów w tej samej kolejności, w której zostały dodane
+        this.list = new LinkedHashMap<>();
     }
 
     public int addStock(StockItem item){
@@ -57,9 +58,9 @@ public class StockList {
             double totalItemValue = stockItem.QuantityInStock() * stockItem.getPrice();
 
             s = s + stockItem + ". There are " + stockItem.QuantityInStock() + " in Stock. Value of items: ";
-            s = s + totalItemValue + "\n";
+            s = s + String.format("%.2f", totalItemValue) + "\n";
             totalCost += totalItemValue;
         }
-        return s + "Total Stock value: " + totalCost;
+        return s + "Total Stock value: " + String.format("%.2f", totalCost);
     }
 }
