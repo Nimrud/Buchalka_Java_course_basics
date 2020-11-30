@@ -26,6 +26,23 @@ public class Main {
         for (String s : stockList.Items().keySet()){
             System.out.println(s);
         }
+
+        Basket myBasket = new Basket("First");
+        sellItem(myBasket, "water", 3);
+        System.out.println(myBasket);
+        sellItem(myBasket, "water", 100);
+        System.out.println(myBasket);
+        sellItem(myBasket, "water", 100);     // to się nie wykona, bo na stanie jest za mało sztuk
+        System.out.println(myBasket);
+
+        System.out.println();
+        sellItem(myBasket, "chocolate", 10);
+        sellItem(myBasket, "broccoli", 7);   // nie ma takiego artykułu w sklepie
+        sellItem(myBasket, "bread", 2);
+        sellItem(myBasket, "tomatoes", 3);
+        System.out.println(myBasket);
+
+        System.out.println(stockList);
     }
 
     public static int sellItem(Basket basket, String item, int quantity){
