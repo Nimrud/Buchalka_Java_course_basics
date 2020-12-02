@@ -57,6 +57,7 @@ public class Main {
             return quantity;
         }
         // jeśli kod dotarł do tego miejsca, to znaczy, że nie mamy wystarczająco towaru do sprzedania:
+        System.out.println("There is not enough " + item + " in stock! Order not completed.");
         return 0;
     }
 }

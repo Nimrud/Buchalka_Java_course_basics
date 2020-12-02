@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sorted_collections/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sorted_collections/Basket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sorted_collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sorted_collections/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sorted_collections/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/sorted_collections/StockItem.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,14 +230,9 @@
       <workItem from="1606291139475" duration="523000" />
       <workItem from="1606341467154" duration="1821000" />
       <workItem from="1606602890877" duration="1853000" />
-      <workItem from="1606753766880" duration="1877000" />
-    </task>
-    <task id="LOCAL-00061" summary="m9_Inner_Abstract_Classes_Interfaces: abstract classes challenge (1)">
-      <created>1601416677319</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1601416677319</updated>
+      <workItem from="1606753766880" duration="1990000" />
+      <workItem from="1606857315815" duration="601000" />
+      <workItem from="1606948980884" duration="652000" />
     </task>
     <task id="LOCAL-00062" summary="m9_Inner_Abstract_Classes_Interfaces: abstract classes challenge (2)">
       <created>1601502605366</created>
@@ -574,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606604141732</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="m12_collections: sorted collections (7)">
+      <created>1606774926662</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1606774926663</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m12_collections: maps - adventure game (1)" />
     <MESSAGE value="m12_collections: maps - adventure game (dodanie mapy lokacji)" />
     <MESSAGE value="m12_collections: maps - adventure game (2)" />
     <MESSAGE value="m12_collections: maps - adventure game challenge (w trakcie rozwiązywania, 1)" />
@@ -618,7 +620,8 @@
     <MESSAGE value="m12_collections: sorted collections (4)" />
     <MESSAGE value="m12_collections: sorted collections (5)" />
     <MESSAGE value="m12_collections: sorted collections (6)" />
-    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: sorted collections (6)" />
+    <MESSAGE value="m12_collections: sorted collections (7)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: sorted collections (7)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="886" y="129" width="1024" height="845" key="#Project_Structure" timestamp="1605825065399">
@@ -637,10 +640,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598630070756" />
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1606604141520">
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1606774926408">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1606604141520" />
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1606774926408" />
     <state x="308" y="324" width="1482" height="872" key="DiffContextDialog" timestamp="1598653573902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -649,22 +652,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="832" y="326" width="506" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1602370192886" />
-    <state width="925" height="196" key="GridCell.Tab.0.bottom" timestamp="1606774562645">
+    <state width="925" height="196" key="GridCell.Tab.0.bottom" timestamp="1606949412533">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="925" height="196" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1606774562645" />
-    <state width="925" height="196" key="GridCell.Tab.0.center" timestamp="1606774562644">
+    <state width="925" height="196" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1606949412533" />
+    <state width="925" height="196" key="GridCell.Tab.0.center" timestamp="1606949412533">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="925" height="196" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1606774562644" />
-    <state width="925" height="196" key="GridCell.Tab.0.left" timestamp="1606774562642">
+    <state width="925" height="196" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1606949412533" />
+    <state width="925" height="196" key="GridCell.Tab.0.left" timestamp="1606949412532">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="925" height="196" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1606774562642" />
-    <state width="925" height="196" key="GridCell.Tab.0.right" timestamp="1606774562644">
+    <state width="925" height="196" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1606949412532" />
+    <state width="925" height="196" key="GridCell.Tab.0.right" timestamp="1606949412533">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="925" height="196" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1606774562644" />
+    <state width="925" height="196" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1606949412533" />
     <state width="1807" height="310" key="GridCell.Tab.1.bottom" timestamp="1604371052947">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -685,10 +688,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="578" y="160" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1602370193764" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606604143611">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606774928772">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1606604143611" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1606774928772" />
     <state x="519" y="264" width="939" height="647" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599795311172">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
