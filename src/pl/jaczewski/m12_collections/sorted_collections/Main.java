@@ -1,5 +1,7 @@
 package pl.jaczewski.m12_collections.sorted_collections;
 
+import java.util.Map;
+
 public class Main {
     private static StockList stockList = new StockList();
 
@@ -43,6 +45,13 @@ public class Main {
         System.out.println(myBasket);
 
         System.out.println(stockList);
+
+        stockList.Items().get("car").adjustStock(2000);
+        stockList.get("car").adjustStock(-1000);
+        System.out.println(stockList);
+        for(Map.Entry<String, Double> price: stockList.PriceList().entrySet()) {
+            System.out.println(price.getKey() + " costs " + price.getValue());
+        }
     }
 
     public static int sellItem(Basket basket, String item, int quantity){
