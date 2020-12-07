@@ -46,9 +46,12 @@ public class Main {
 
         System.out.println(stockList);
 
-        stockList.Items().get("car").adjustStock(2000);
-        stockList.get("car").adjustStock(-1000);
+        stockList.Items().get("car").adjustStock(2000);      // pierwszy sposób na modyfikację liczby egzemplarzy
+        // sama Kolekcja [Items()] jest niemodyfikowalna, a nie poszczególne obiekty w niej!
+        stockList.get("car").adjustStock(-1000);             // drugi sposób
         System.out.println(stockList);
+        // niemodyfikowalna Mapa przedmiotów i cen, poszczególne obiekty w niej są niemodyfikowalne
+        // (więc powyższy kod modyfikujący liczbę szt. tutaj by nie zadziałał)
         for(Map.Entry<String, Double> price: stockList.PriceList().entrySet()) {
             System.out.println(price.getKey() + " costs " + price.getValue());
         }
