@@ -39,6 +39,12 @@ public class StockItem implements Comparable<StockItem> {
         }
     }
 
+    public void addReserved(int quantity){
+        if (quantity <= this.quantityStock){
+            this.reserved = quantity;
+        }
+    }
+
     public void adjustStock(int quantity){
         int newQuantity = this.quantityStock + quantity;
         if (newQuantity >= 0){
@@ -48,7 +54,6 @@ public class StockItem implements Comparable<StockItem> {
 
     @Override
     public boolean equals(Object obj) {
-        System.out.println("Entering StockItem.equals()");
         if (obj == this){
             return true;
         }
@@ -71,7 +76,6 @@ public class StockItem implements Comparable<StockItem> {
 
     @Override
     public int compareTo(StockItem o) {
-        System.out.println("Entering StockItem.compareTo sorting method");
         if (o == this){
             return 0;
         }
@@ -84,6 +88,6 @@ public class StockItem implements Comparable<StockItem> {
 
     @Override
     public String toString() {
-        return this.name + ", price: " + this.price;
+        return this.name + " (price: " + this.price + ")";
     }
 }

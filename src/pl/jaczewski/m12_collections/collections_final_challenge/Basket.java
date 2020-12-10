@@ -1,7 +1,5 @@
 package pl.jaczewski.m12_collections.collections_final_challenge;
 
-import pl.jaczewski.m12_collections.sorted_collections.StockItem;
-
 import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
@@ -24,18 +22,22 @@ public class Basket {
         return 0;
     }
 
+    public void clearBasket(){
+        list.clear();
+    }
+
     public Map<StockItem, Integer> Items(){
         return Collections.unmodifiableMap(list);
     }
 
     @Override
     public String toString() {
-        String s = "\nShopping basket " + name + " contains " + list.size() + (list.size() == 1 ? " item" : " items") + "\n";
+        String s = "\nShopping basket " + name + " contains " + list.size() + (list.size() == 1 ? " item:" : " items:") + "\n";
         double totalCost = 0.0;
         for (Map.Entry<StockItem, Integer> item : list.entrySet()) {
             s = s + item.getKey() + ". " + item.getValue() + " purchased\n";
             totalCost += item.getKey().getPrice() * item.getValue();
         }
-        return s + "Total cost " + String.format("%.2f", totalCost);
+        return s + "Total cost: " + String.format("%.2f", totalCost);
     }
 }
