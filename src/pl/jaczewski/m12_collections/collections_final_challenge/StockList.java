@@ -25,6 +25,11 @@ public class StockList {
 
     public int reserveItem(String name, int quantity){
         //TODO
+        StockItem inStock = list.get(name);
+        if ((inStock != null) && (quantity > 0) && (inStock.QuantityInStock() >= quantity)){
+            inStock.addReserved(quantity);
+            return quantity;
+        }
         return 0;
     }
 

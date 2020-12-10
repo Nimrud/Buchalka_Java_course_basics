@@ -1,8 +1,51 @@
 package pl.jaczewski.m12_collections.collections_final_challenge;
 
 public class Main {
-    public static void main(String[] args) {
+    private static StockList stockList = new StockList();
 
+    public static void main(String[] args) {
+        StockItem temp = new StockItem("bread", 2.99, 100);
+        stockList.addStock(temp);
+
+        temp = new StockItem("water", 2.79, 60);
+        stockList.addStock(temp);
+
+        temp = new StockItem("tomatoes", 5.99, 20);
+        stockList.addStock(temp);
+
+        temp = new StockItem("chocolate", 3.99, 40);
+        stockList.addStock(temp);
+
+        Basket myBasket = new Basket("First");
+        reserveItem(myBasket, "water", 3);
+        reserveItem(myBasket, "chocolate", 10);
+        reserveItem(myBasket, "bread", 2);
+        reserveItem(myBasket, "tomatoes", 3);
+        System.out.println(myBasket);
+
+    }
+
+    public static int reserveItem(Basket basket, String item, int quantity){
+        StockItem stockItem = stockList.getItem(item);
+        if (stockItem == null){
+            System.out.println("We don't sell " + item);
+            return 0;
+        }
+        if (stockList.reserveItem(item, quantity) != 0){
+            basket.addToBasket(stockItem, quantity);
+            return quantity;
+        }
+
+        System.out.println("There is not enough " + item + " in stock! Reservation impossible.");
+        return 0;
+    }
+
+    public static int checkout(Basket basket){
+        //TODO
+
+        // czyszczenie koszyka
+        basket.clearBasket();
+        return 0;
     }
 }
 
