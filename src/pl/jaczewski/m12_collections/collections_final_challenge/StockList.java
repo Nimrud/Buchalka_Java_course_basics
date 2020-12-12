@@ -11,10 +11,10 @@ public class StockList {
         this.list = new LinkedHashMap<>();
     }
 
-    public int addStock(StockItem item){
-        if (item != null){
+    public int addStock(StockItem item) {
+        if (item != null) {
             StockItem inStock = list.getOrDefault(item.getName(), item);
-            if (inStock != item){
+            if (inStock != item) {
                 item.adjustStock(inStock.QuantityInStock());
             }
             list.put(item.getName(), item);
@@ -23,27 +23,26 @@ public class StockList {
         return 0;
     }
 
-    public int reserveItem(String name, int quantity){
-        //TODO
+    public int reserveItem(String name, int quantity) {
         StockItem inStock = list.get(name);
-        if ((inStock != null) && (quantity > 0) && (inStock.QuantityInStock() >= quantity)){
+        if ((inStock != null) && (quantity > 0) && (inStock.QuantityInStock() >= quantity)) {
             inStock.addReserved(quantity);
             return quantity;
         }
         return 0;
     }
 
-    public int sellStock(String name, int quantity){
+    public int sellStock(String name, int quantity) {
+        //TODO
         StockItem inStock = list.get(name);
-
-        if ((inStock != null) && (quantity > 0) && (inStock.QuantityInStock() >= quantity)){
+        if ((inStock != null) && (quantity > 0)) {
             inStock.adjustStock(-quantity);
             return quantity;
         }
         return 0;
     }
 
-    public StockItem getItem(String name){
+    public StockItem getItem(String name) {
         return list.get(name);
     }
 
@@ -53,13 +52,13 @@ public class StockList {
 
     public Map<String, Double> PriceList() {
         Map<String, Double> prices = new LinkedHashMap<>();
-        for(Map.Entry<String, StockItem> item : list.entrySet()) {
+        for (Map.Entry<String, StockItem> item : list.entrySet()) {
             prices.put(item.getKey(), item.getValue().getPrice());
         }
         return Collections.unmodifiableMap(prices);
     }
 
-    public StockItem get(String key){
+    public StockItem get(String key) {
         return list.get(key);
     }
 
@@ -67,7 +66,7 @@ public class StockList {
     public String toString() {
         String s = "\nStock List\n";
         double totalCost = 0;
-        for (Map.Entry<String, StockItem> item : list.entrySet()){
+        for (Map.Entry<String, StockItem> item : list.entrySet()) {
             StockItem stockItem = item.getValue();
 
             double totalItemValue = stockItem.QuantityInStock() * stockItem.getPrice();

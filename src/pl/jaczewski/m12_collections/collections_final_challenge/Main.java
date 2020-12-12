@@ -1,5 +1,7 @@
 package pl.jaczewski.m12_collections.collections_final_challenge;
 
+import java.util.Map;
+
 public class Main {
     private static StockList stockList = new StockList();
 
@@ -16,12 +18,20 @@ public class Main {
         temp = new StockItem("chocolate", 3.99, 40);
         stockList.addStock(temp);
 
+        temp = new StockItem("olives", 5.99, 10);
+        stockList.addStock(temp);
+
         Basket myBasket = new Basket("First");
         reserveItem(myBasket, "water", 3);
         reserveItem(myBasket, "chocolate", 10);
         reserveItem(myBasket, "bread", 2);
         reserveItem(myBasket, "tomatoes", 3);
         System.out.println(myBasket);
+        System.out.println("===");
+
+        checkout(myBasket);
+        System.out.println(myBasket);
+        System.out.println(stockList);
 
     }
 
@@ -40,12 +50,16 @@ public class Main {
         return 0;
     }
 
-    public static int checkout(Basket basket){
+    public static void checkout(Basket basket){
         //TODO
+        // przerobić metodę sellItem - ma przyjmować tylko Basket (?)
 
-        // czyszczenie koszyka
+        for (Map.Entry<StockItem, Integer> item : basket.Items().entrySet()){
+            stockList.sellStock(item.getKey().getName(), item.getValue());
+        }
+
+        System.out.println("Items have been purchased.");
         basket.clearBasket();
-        return 0;
     }
 }
 
