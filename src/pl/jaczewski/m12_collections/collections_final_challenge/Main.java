@@ -29,6 +29,13 @@ public class Main {
         System.out.println(myBasket);
         System.out.println("===");
 
+        Basket secondBasket = new Basket("Second");
+        reserveItem(secondBasket, "chocolate", 35);
+        System.out.println(secondBasket);
+        System.out.println("===");
+        //TODO
+        //zapobieżenie rezerwacji większej liczby przedmiotów niż stan magazynowy minus pierwszy koszyk
+
         checkout(myBasket);
         System.out.println(myBasket);
         System.out.println(stockList);
@@ -51,13 +58,10 @@ public class Main {
     }
 
     public static void checkout(Basket basket){
-        //TODO
-        // przerobić metodę sellItem - ma przyjmować tylko Basket (?)
 
         for (Map.Entry<StockItem, Integer> item : basket.Items().entrySet()){
             stockList.sellStock(item.getKey().getName(), item.getValue());
         }
-
         System.out.println("Items have been purchased.");
         basket.clearBasket();
     }
