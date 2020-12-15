@@ -32,6 +32,15 @@ public class StockList {
         return 0;
     }
 
+    public int unReserveItem(String name, int quantity){
+        StockItem inStock = list.get(name);
+        if ((inStock != null) && (quantity > 0)) {
+            inStock.addReserved(-quantity);
+            return quantity;
+        }
+        return 0;
+    }
+
     public int sellStock(String name, int quantity) {
         //TODO
         StockItem inStock = list.get(name);
