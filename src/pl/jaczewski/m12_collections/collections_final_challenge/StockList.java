@@ -35,14 +35,13 @@ public class StockList {
     public int unReserveItem(String name, int quantity){
         StockItem inStock = list.get(name);
         if ((inStock != null) && (quantity > 0)) {
-            inStock.addReserved(-quantity);
+            inStock.unreserve(quantity);
             return quantity;
         }
         return 0;
     }
 
     public int sellStock(String name, int quantity) {
-        //TODO
         StockItem inStock = list.get(name);
         if ((inStock != null) && (quantity > 0)) {
             inStock.adjustStock(-quantity);

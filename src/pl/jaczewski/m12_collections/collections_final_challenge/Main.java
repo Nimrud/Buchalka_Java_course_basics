@@ -26,12 +26,14 @@ public class Main {
         reserveItem(myBasket, "chocolate", 10);
         reserveItem(myBasket, "bread", 2);
         reserveItem(myBasket, "tomatoes", 3);
+        unReserveItem(myBasket, "tomatoes", 4);
         System.out.println(myBasket);
         System.out.println("===");
 
         Basket secondBasket = new Basket("Second");
-        reserveItem(secondBasket, "chocolate", 35);
+        reserveItem(secondBasket, "chocolate", 38);
         System.out.println(secondBasket);
+        checkout(secondBasket);
         System.out.println("===");
         //TODO
         //zapobieżenie rezerwacji większej liczby przedmiotów niż stan magazynowy minus pierwszy koszyk
@@ -52,8 +54,21 @@ public class Main {
             basket.addToBasket(stockItem, quantity);
             return quantity;
         }
-
         System.out.println("There is not enough " + item + " in stock! Reservation impossible.");
+        return 0;
+    }
+
+    public static int unReserveItem(Basket basket, String item, int quantity){
+        StockItem stockItem = stockList.getItem(item);
+        if (stockItem == null){
+            System.out.println("We don't sell " + item);
+            return 0;
+        }
+        if (stockList.unReserveItem(item, quantity) != 0){
+            basket.addToBasket(stockItem, -quantity);
+            return quantity;
+        }
+        System.out.println("You haven't reserved so many " + item + "! Request not processed.");
         return 0;
     }
 
