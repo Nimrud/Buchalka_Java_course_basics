@@ -26,7 +26,7 @@ public class Main {
         reserveItem(myBasket, "chocolate", 10);
         reserveItem(myBasket, "bread", 2);
         reserveItem(myBasket, "tomatoes", 3);
-        unReserveItem(myBasket, "tomatoes", 4);
+        unReserveItem(myBasket, "tomatoes", 2);
         System.out.println(myBasket);
         System.out.println("===");
 
