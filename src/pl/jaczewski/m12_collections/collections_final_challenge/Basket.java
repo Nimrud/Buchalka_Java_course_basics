@@ -26,6 +26,10 @@ public class Basket {
         list.clear();
     }
 
+    public String getName() {
+        return name;
+    }
+
     public Map<StockItem, Integer> Items(){
         return Collections.unmodifiableMap(list);
     }
