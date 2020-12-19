@@ -14,7 +14,7 @@ public class Basket {
     }
 
     public int addToBasket(StockItem item, int quantity){
-        if ((item != null) && (quantity > 0)){
+        if (item != null){
             int inBasket = list.getOrDefault(item, 0);
             list.put(item, inBasket + quantity);
             return inBasket;
@@ -35,8 +35,15 @@ public class Basket {
         String s = "\nShopping basket " + name + " contains " + list.size() + (list.size() == 1 ? " item:" : " items:") + "\n";
         double totalCost = 0.0;
         for (Map.Entry<StockItem, Integer> item : list.entrySet()) {
+            // jeśli rezygnujemy z rezerwacji większej liczby danego towaru niż jest go w koszyku,
+            // to ustawiamy całkowitą liczbę szt. rezerwacji na 0 (więc wyświetla się w koszyku, ale nie wpływa na wartość)
+            if (item.getValue() <= 0){
+                item.setValue(0);
+            }
             s = s + item.getKey() + ". " + item.getValue() + " reserved\n";
             totalCost += item.getKey().getPrice() * item.getValue();
+
+
         }
         return s + "Total cost: " + String.format("%.2f", totalCost);
     }
