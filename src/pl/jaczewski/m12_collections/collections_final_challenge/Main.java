@@ -36,7 +36,7 @@ public class Main {
         checkout(secondBasket);
         System.out.println("===");
         //TODO
-        //zapobieżenie rezerwacji większej liczby przedmiotów niż stan magazynowy minus pierwszy koszyk
+        //zapobieżenie rezerwacji większej liczby przedmiotów w kilku koszykach niż stan magazynowy
 
         checkout(myBasket);
         System.out.println(myBasket);
@@ -77,7 +77,7 @@ public class Main {
         for (Map.Entry<StockItem, Integer> item : basket.Items().entrySet()){
             stockList.sellStock(item.getKey().getName(), item.getValue());
         }
-        System.out.println("Items have been purchased.");
+        System.out.println("Items from basket " + basket.getName() + " have been purchased.");
         basket.clearBasket();
     }
 }

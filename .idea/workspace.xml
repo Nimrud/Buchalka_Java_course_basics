@@ -28,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/collections_final_challenge/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/collections_final_challenge/Basket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/collections_final_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/collections_final_challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/collections_final_challenge/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/jaczewski/m12_collections/collections_final_challenge/StockItem.java" afterDir="false" />
     </list>
     <list id="e78606c3-c4a2-4028-a102-05e307f4ad5c" name="metody - zadanie 01" comment="metody - zadanie 01" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,14 +245,7 @@
       <workItem from="1608072520333" duration="967000" />
       <workItem from="1608329374029" duration="2489000" />
       <workItem from="1608411435432" duration="28000" />
-      <workItem from="1608415404707" duration="1883000" />
-    </task>
-    <task id="LOCAL-00072" summary="m11_packages_scope_final_static: packages challenge (1)">
-      <created>1602365213545</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1602365213549</updated>
+      <workItem from="1608415404707" duration="2818000" />
     </task>
     <task id="LOCAL-00073" summary="m11_packages_scope_final_static: packages (1)">
       <created>1602368682674</created>
@@ -591,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608331956670</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="m12_collections: final collections challenge (8) - poprawione podliczanie rezerwacji (z rezygnacją)">
+      <created>1608417531205</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1608417531205</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +609,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m12_collections: maps - Sets and HashSets (5)" />
     <MESSAGE value="m12_collections: maps - Sets and HashSets (5): Asymmetric &amp; Symmetric difference" />
     <MESSAGE value="m12_collections: maps - Sets and HashSets (6)" />
     <MESSAGE value="m12_collections: maps - Sets challenge (1)" />
@@ -635,7 +633,8 @@
     <MESSAGE value="m12_collections: final collections challenge (5) - ulepszyć metodę rezerwacji większej liczby koszyków zakupowych" />
     <MESSAGE value="m12_collections: final collections challenge (6)" />
     <MESSAGE value="m12_collections: final collections challenge (7) - poprawić rezygnację z rezerwacji" />
-    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: final collections challenge (7) - poprawić rezygnację z rezerwacji" />
+    <MESSAGE value="m12_collections: final collections challenge (8) - poprawione podliczanie rezerwacji (z rezygnacją)" />
+    <option name="LAST_COMMIT_MESSAGE" value="m12_collections: final collections challenge (8) - poprawione podliczanie rezerwacji (z rezygnacją)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="886" y="129" width="1024" height="845" key="#Project_Structure" timestamp="1605825065399">
@@ -646,38 +645,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1154" y="310" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1607638123761" />
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1607035906328">
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1608417718578">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1607035906328" />
+    <state x="1186" y="167" width="565" height="716" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1608417718578" />
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601501955646">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="779" y="359" width="407" height="387" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601501955646" />
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1608331956430">
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2" timestamp="1608417531030">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1608331956430" />
+    <state x="67" y="27" width="1483" height="998" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1608417531030" />
     <state x="832" y="326" width="506" height="513" key="FileChooserDialogImpl" timestamp="1602370192886">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="832" y="326" width="506" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1602370192886" />
-    <state width="495" height="902" key="GridCell.Tab.0.bottom" timestamp="1608416990139">
+    <state width="495" height="902" key="GridCell.Tab.0.bottom" timestamp="1608417927297">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="495" height="902" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608416990139" />
-    <state width="495" height="902" key="GridCell.Tab.0.center" timestamp="1608416990138">
+    <state width="495" height="902" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608417927297" />
+    <state width="495" height="902" key="GridCell.Tab.0.center" timestamp="1608417927295">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="495" height="902" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608416990138" />
-    <state width="495" height="902" key="GridCell.Tab.0.left" timestamp="1608416990137">
+    <state width="495" height="902" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608417927295" />
+    <state width="495" height="902" key="GridCell.Tab.0.left" timestamp="1608417927294">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="495" height="902" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608416990137" />
-    <state width="495" height="902" key="GridCell.Tab.0.right" timestamp="1608416990139">
+    <state width="495" height="902" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608417927294" />
+    <state width="495" height="902" key="GridCell.Tab.0.right" timestamp="1608417927296">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="495" height="902" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608416990139" />
+    <state width="495" height="902" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608417927296" />
     <state width="1807" height="310" key="GridCell.Tab.1.bottom" timestamp="1608416639087">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -698,10 +697,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="578" y="160" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1602370193764" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1608331958563">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1608417532882">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1608331958563" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1608417532882" />
     <state x="519" y="264" width="939" height="647" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599795311172">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -722,11 +721,6 @@
           <url>file://$PROJECT_DIR$/src/pl/jaczewski/m4_expressions_statements_methods/Method_Overloading.java</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pl/jaczewski/m12_collections/collections_final_challenge/Main.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
