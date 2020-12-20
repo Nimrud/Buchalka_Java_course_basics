@@ -44,8 +44,7 @@ public class StockList {
     public int sellStock(String name, int quantity) {
         StockItem inStock = list.get(name);
         if ((inStock != null) && (quantity > 0)) {
-            inStock.adjustStock(-quantity);
-            return quantity;
+            return inStock.adjustStock(-quantity);
         }
         return 0;
     }

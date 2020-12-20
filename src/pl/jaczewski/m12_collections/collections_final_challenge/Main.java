@@ -23,24 +23,28 @@ public class Main {
 
         Basket myBasket = new Basket("First");
         reserveItem(myBasket, "water", 3);
-        reserveItem(myBasket, "chocolate", 10);
+        reserveItem(myBasket, "chocolate", 38);
         reserveItem(myBasket, "bread", 2);
         reserveItem(myBasket, "tomatoes", 3);
-        unReserveItem(myBasket, "tomatoes", 2);
+        unReserveItem(myBasket, "tomatoes", 1);
         System.out.println(myBasket);
         System.out.println("===");
 
         Basket secondBasket = new Basket("Second");
-        reserveItem(secondBasket, "chocolate", 38);
+        reserveItem(secondBasket, "chocolate", 10);
+        unReserveItem(secondBasket, "goggles", 10);   // tego przedmiotu nie ma w sklepie
         System.out.println(secondBasket);
-        checkout(secondBasket);
         System.out.println("===");
-        //TODO
-        //zapobieżenie rezerwacji większej liczby przedmiotów w kilku koszykach niż stan magazynowy
 
         checkout(myBasket);
-        System.out.println(myBasket);
+        System.out.println("===");
+        checkout(secondBasket);
+
+        System.out.println("======");
         System.out.println(stockList);
+
+        System.out.println(myBasket);
+        System.out.println(secondBasket);
 
     }
 
@@ -68,16 +72,19 @@ public class Main {
             basket.addToBasket(stockItem, -quantity);
             return quantity;
         }
-        System.out.println("You haven't reserved so many " + item + "! Request not processed.");
         return 0;
     }
 
     public static void checkout(Basket basket){
-
         for (Map.Entry<StockItem, Integer> item : basket.Items().entrySet()){
-            stockList.sellStock(item.getKey().getName(), item.getValue());
+            if (stockList.sellStock(item.getKey().getName(), item.getValue()) > 0){
+                System.out.println("=> " + item.getKey().getName() + " purchased.");
+            } else {
+                System.out.println("!!! " + item.getKey().getName() + " not purchased. Either not enough items in stock or reservation cancelled.");
+            }
         }
-        System.out.println("Items from basket " + basket.getName() + " have been purchased.");
+        System.out.println("Items from basket " + basket.getName() + " checked out. The basket has been cleared.");
+
         basket.clearBasket();
     }
 }
