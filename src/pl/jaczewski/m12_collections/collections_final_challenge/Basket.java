@@ -43,6 +43,7 @@ public class Basket {
             // to ustawiamy całkowitą liczbę szt. rezerwacji na 0 (więc wyświetla się w koszyku, ale nie wpływa na wartość)
             if (item.getValue() <= 0){
                 item.setValue(0);
+                System.out.println("You haven't reserved so many " + item.getKey().getName() + "! Total number cleared.");
             }
             s = s + item.getKey() + ". " + item.getValue() + " reserved\n";
             totalCost += item.getKey().getPrice() * item.getValue();
