@@ -1,10 +1,10 @@
-package pl.jaczewski.m8_arrays_lists_autoboxing.new_sortedArray_challenge;
+package pl.jaczewski.m8_arrays_lists_autoboxing.new_challenges;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main {
+public class SortedArray {
     // CHALLENGE:
     // Create a program using arrays that sorts a list of integers in descending order.
     // Descending order is highest value to lowest.
