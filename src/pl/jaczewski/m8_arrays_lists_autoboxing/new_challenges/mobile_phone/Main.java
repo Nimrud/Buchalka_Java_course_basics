@@ -55,6 +55,26 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Contact contact1 = new Contact("Chris", "123456");
+        Contact contact4 = new Contact("Chris", "444777");
+        Contact contact2 = new Contact("Anna", "458899");
+        Contact contact3 = new Contact("Bob", "9993334");
 
+        MobilePhone contacts = new MobilePhone("555666");
+        System.out.println(contacts.addNewContact(contact1));
+        System.out.println(contacts.addNewContact(contact4));
+        System.out.println(contacts.addNewContact(contact1));
+        System.out.println(contacts.addNewContact(contact2));
+        contacts.addNewContact(Contact.createContact("Johnny", "8883332"));
+
+        contacts.printContacts();
+
+//        contacts.updateContact(contact1, contact2);
+//        contacts.printContacts();
+//        contacts.removeContact(contact2);
+//        contacts.printContacts();
+//        System.out.println(contacts.findContact(contact3));
+//        System.out.println(contacts.findContact("Chris"));
+        System.out.println(contacts.queryContact("Anna").getPhoneNumber());
     }
 }
