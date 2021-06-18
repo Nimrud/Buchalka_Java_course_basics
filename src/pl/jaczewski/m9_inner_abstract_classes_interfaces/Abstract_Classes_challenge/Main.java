@@ -1,8 +1,6 @@
 package pl.jaczewski.m9_inner_abstract_classes_interfaces.Abstract_Classes_challenge;
 
 public class Main {
-}
-
 
     // For this challenge, create an abstract class to define items that can be stored in a list.
     // The class should contain 2 references to items which will represent the next and previous
@@ -56,10 +54,34 @@ public class Main {
     // a loop as in the example below.
     //
     // Create a string data array to avoid typing loads of addItem instructions:
-    /*
-    String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
+    //
+    // String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
+    //
+    // String[] data = stringData.split(" ");
+    //    for (String s : data) {   }
+    //
+    // create new item with value set to the string s
 
-    String[] data = stringData.split(" ");
+    public static void main(String[] args) {
+
+        System.out.println("===== 1 =====");
+        MyLinkedList list = new MyLinkedList(null);
+        list.moveThroughList(list.getRoot());
+
+        String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
+        String[] data = stringData.split(" ");
         for (String s : data) {
-     */
-// create new item with value set to the string s
+            list.addItem(new Node(s));
+        }
+        list.moveThroughList(list.getRoot());
+
+        System.out.println("===== 2 =====");
+        MyLinkedList newList = new MyLinkedList(null);
+        String newStringData = "5 9 2 7 0 4 8 3 1 6";
+        String[] newData = newStringData.split(" ");
+        for (String s : newData) {
+            newList.addItem(new Node(s));
+        }
+        newList.moveThroughList(newList.getRoot());
+    }
+}
