@@ -62,6 +62,9 @@ public class Main {
     //
     // create new item with value set to the string s
 
+    // ===== Double Linked Lists: =====
+    // https://www.youtube.com/watch?v=ZlNKNSz88Nk
+
     public static void main(String[] args) {
 
         System.out.println("===== 1 =====");
@@ -82,6 +85,11 @@ public class Main {
         for (String s : newData) {
             newList.addItem(new Node(s));
         }
+        newList.moveThroughList(newList.getRoot());
+        newList.removeItem(new Node("5"));
+        newList.removeItem(new Node("2"));
+        newList.removeItem(new Node("9"));
+        newList.removeItem(new Node("0"));
         newList.moveThroughList(newList.getRoot());
     }
 }
