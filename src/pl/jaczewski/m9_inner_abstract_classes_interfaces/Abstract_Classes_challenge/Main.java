@@ -91,5 +91,15 @@ public class Main {
         newList.removeItem(new Node("9"));
         newList.removeItem(new Node("0"));
         newList.moveThroughList(newList.getRoot());
+
+        System.out.println("===== 3 (Binary Search Tree) =====");
+        SearchTree tree = new SearchTree(null);
+        tree.moveThroughList(tree.getRoot());
+        String treeData = "12 52 22 70 10 34 13 62 62";
+        String[] data3 = treeData.split(" ");
+        for (String s : data3) {
+            tree.addItem(new Node(s));
+        }
+        tree.moveThroughList(tree.getRoot());
     }
 }

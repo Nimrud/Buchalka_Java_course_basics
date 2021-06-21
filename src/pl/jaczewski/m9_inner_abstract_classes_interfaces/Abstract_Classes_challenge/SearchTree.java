@@ -24,6 +24,8 @@ public class SearchTree implements NodeList{
         // w innym wypadku - zaczynamy porównywanie od roota (heada)
         ListItem currentItem = this.root;
         while (currentItem != null) {
+            // w przypadku Search Tree dodanie elementu ZAWSZE jest na końcu ścieżki
+            // więc idziemy w prawo lub lewo, aż dojdziemy do ostatniego elementu
             int comparison = (currentItem.compareTo(newItem));
             if (comparison < 0) {
                 // newItem jest większy, przesuwamy w prawo, jeśli to możliwe
@@ -59,7 +61,7 @@ public class SearchTree implements NodeList{
     @Override
     public void moveThroughList(ListItem root) {
         // metoda rekursywna
-        if (root != null) {
+        if (root == null) {
             moveThroughList(root.previous());
             System.out.println(root.getValue());
             moveThroughList(root.next());
