@@ -96,5 +96,9 @@ public class MyLinkedList implements NodeList{
                 root = root.next();
             }
         }
+        // ta sama metoda rekursywnie:
+//        if (root != null) {
+//            moveThroughList(root.next());
+//        }
     }
 }
