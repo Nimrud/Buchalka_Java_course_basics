@@ -101,5 +101,16 @@ public class Main {
             tree.addItem(new Node(s));
         }
         tree.moveThroughList(tree.getRoot());
+
+        tree.removeItem(new Node("52"));
+        tree.moveThroughList(tree.getRoot());
+
+        tree.removeItem(new Node("10"));
+        tree.moveThroughList(tree.getRoot());
+
+        tree.removeItem(new Node("34"));
+        tree.removeItem(new Node("70"));
+        tree.removeItem(new Node("62"));
+        tree.moveThroughList(tree.getRoot());
     }
 }
