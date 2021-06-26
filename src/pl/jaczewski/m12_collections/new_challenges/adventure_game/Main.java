@@ -9,56 +9,61 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
+    public static void main(String[] args) {
+        Main main = new Main();
+        main.command();
+    }
     // CHALLENGE
     // Implement the command() method in the Main class to allow players to type full words, or phrases,
-    //then move to the correct location based upon their input.
+    // then move to the correct location based upon their input.
     //
-    //The player should be able to type commands such as "Go West", "run South", "I need to Quit this game"
-    //or just "East" and the program will move to the appropriate location if there is one.
+    // The player should be able to type commands such as "Go West", "run South", "I need to Quit this game"
+    // or just "East" and the program will move to the appropriate location if there is one.
     //
-    //The console should display its current location, then it should prompt the user with:
-    //"Available exits are ", and its available exits. For example:
+    // The console should display its current location, then it should prompt the user with:
+    // "Available exits are ", and its available exits. For example:
     //
-    //You are standing at the end of a road before a small brick building
-    //Available exits are Q, S, E, N, W,
+    // You are standing at the end of a road before a small brick building
+    // Available exits are Q, S, E, N, W,
     //
-    //A move in a valid direction should print (keep in mind N, S, E and W variants - showing N below):
+    // A move in a valid direction should print (keep in mind N, S, E and W variants - showing N below):
     //
-    //You are standing at the end of a road before a small brick building
-    //Available exits are Q, S, E, N, W,
+    // You are standing at the end of a road before a small brick building
+    // Available exits are Q, S, E, N, W,
     //
-    //You are in the forest
-    //Available exits are Q, S, W,
+    // You are in the forest
+    // Available exits are Q, S, W,
     //
-    //An attempt to move in an invalid direction should print a message and remain in the same place.
-    //The printed message should be: "You cannot go in that direction". For Example:
+    // An attempt to move in an invalid direction should print a message and remain in the same place.
+    // The printed message should be: "You cannot go in that direction". For Example:
     //
-    //You are standing at the end of a road before a small brick building
-    //Available exits are Q, S, E, N, W,
+    // You are standing at the end of a road before a small brick building
+    // Available exits are Q, S, E, N, W,
     //
-    //You cannot go in that direction
-    //You are standing at the end of a road before a small brick building
-    //Available exits are Q, S, E, N, W,
+    // You cannot go in that direction
+    // You are standing at the end of a road before a small brick building
+    // Available exits are Q, S, E, N, W,
     //
-    //Output for quit (Q) command should be displayed as:
+    // Output for quit (Q) command should be displayed as:
     //
-    //You are standing at the end of a road before a small brick building
-    //Available exits are Q, S, E, N, W,
+    // You are standing at the end of a road before a small brick building
+    // Available exits are Q, S, E, N, W,
     //
-    //You are sitting in front of a computer learning Java
+    // You are sitting in front of a computer learning Java
     //
-    //Single letter commands (N, W, S, E, Q) should still be available.
+    // Single letter commands (N, W, S, E, Q) should still be available.
     //
-    //TIP: Declare a Map called vocabulary as a field with private access modifier, the object is of type HashMap.
+    // TIP: Declare a Map called vocabulary as a field with private access modifier, the object is of type HashMap.
     //	Create its key-value pair in the constructor by using the put() method. Both key and value are of type String.
     //	Use vocabulary to store the original commands aliases (eg. NORTH = N, SOUTH = S, ...).
     //
-    //TIP: Instantiate (create) the Scanner object inside the method.
+    // TIP: Instantiate (create) the Scanner object inside the method.
     //
-    //NOTE: Ignore "No line found" in the output if you get an error message. It is not the reason for the error.
+    // NOTE: Ignore "No line found" in the output if you get an error message. It is not the reason for the error.
     //	Instead, check spelling/spaces/format in the printed message.
 
     private Map<Integer, Location> locations = new HashMap<Integer, Location>();
+    private Map<String, String> vocabulary = new HashMap<>();
 
     public Main() {
         locations.put(0, new Location(0, "You are sitting in front of a computer learning Java"));
@@ -86,6 +91,12 @@ public class Main {
 
     public void command() {
         // write code here
+        vocabulary.put("QUIT", "Q");
+        vocabulary.put("NORTH", "N");
+        vocabulary.put("EAST", "E");
+        vocabulary.put("SOUTH", "S");
+        vocabulary.put("WEST", "W");
+
         Scanner scanner = new Scanner(System.in);
 
         int location = 1;
@@ -100,20 +111,20 @@ public class Main {
             Map<String, Integer> availableExits = locations.get(location).getExits();
             System.out.print("Available exits are ");
             for (String exit : availableExits.keySet()) {
-                System.out.println(exit + ", ");
+                System.out.print(exit + ", ");
             }
             System.out.println();
-            String direction = scanner.nextLine().toLowerCase();
+            String direction = scanner.nextLine().toUpperCase();
 
-            if (direction.matches(".*\\bnorth\\b.*") || direction.matches(".*\\bn\\b.*")) {
+            if (direction.matches(".*\\bNORTH\\b.*") || direction.matches(".*\\bN\\b.*")) {
                 direction = "N";
-            } else if(direction.matches(".*\\beast\\b.*") || direction.matches(".*\\be\\b.*")) {
+            } else if(direction.matches(".*\\bEAST\\b.*") || direction.matches(".*\\bE\\b.*")) {
                 direction = "E";
-            } else if (direction.matches(".*\\bsouth\\b.*") || direction.matches(".*\\bs\\b.*")) {
+            } else if (direction.matches(".*\\bSOUTH\\b.*") || direction.matches(".*\\bS\\b.*")) {
                 direction = "S";
-            } else if (direction.matches(".*\\bwest\\b.*") || direction.matches(".*\\bw\\b.*")) {
+            } else if (direction.matches(".*\\bWEST\\b.*") || direction.matches(".*\\bW\\b.*")) {
                 direction = "W";
-            } else if (direction.matches(".*\\bquit\\b.*") || direction.matches(".*\\bq\\b.*")){
+            } else if (direction.matches(".*\\bQUIT\\b.*") || direction.matches(".*\\bQ\\b.*")){
                 direction = "Q";
             } else {
                 direction = " ";
