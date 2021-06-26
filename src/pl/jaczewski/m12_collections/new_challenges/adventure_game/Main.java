@@ -103,8 +103,28 @@ public class Main {
                 System.out.println(exit + ", ");
             }
             System.out.println();
+            String direction = scanner.nextLine().toLowerCase();
 
+            if (direction.matches(".*\\bnorth\\b.*") || direction.matches(".*\\bn\\b.*")) {
+                direction = "N";
+            } else if(direction.matches(".*\\beast\\b.*") || direction.matches(".*\\be\\b.*")) {
+                direction = "E";
+            } else if (direction.matches(".*\\bsouth\\b.*") || direction.matches(".*\\bs\\b.*")) {
+                direction = "S";
+            } else if (direction.matches(".*\\bwest\\b.*") || direction.matches(".*\\bw\\b.*")) {
+                direction = "W";
+            } else if (direction.matches(".*\\bquit\\b.*") || direction.matches(".*\\bq\\b.*")){
+                direction = "Q";
+            } else {
+                direction = " ";
+            }
 
+            if (availableExits.containsKey(direction)) {
+                location = availableExits.get(direction);
+            } else {
+                System.out.println("You cannot go in that direction");
+            }
         }
+        scanner.close();
     }
 }
