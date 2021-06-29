@@ -7,19 +7,83 @@ package pl.jaczewski.m12_collections.new_challenges.sets;
 import java.util.HashSet;
 import java.util.Set;
 
-public final class HeavenlyBody {
+public abstract class HeavenlyBody {
     private final String name;
+    private final Key key;
+    private BodyType bodyType;
     private final double orbitalPeriod;
     private final Set<HeavenlyBody> satellites;
 
-    public HeavenlyBody(String name, double orbitalPeriod) {
+    public HeavenlyBody(String name, BodyType bodyType, double orbitalPeriod) {
         this.name = name;
+        this.bodyType = bodyType;
         this.orbitalPeriod = orbitalPeriod;
         this.satellites = new HashSet<>();
+        this.key = new Key(name, bodyType);
+    }
+
+    public enum BodyType {
+        PLANET, DWARF_PLANET, MOON
+    }
+
+    public static final class Key {
+        private String name;
+        private BodyType bodyType;
+
+        private Key(String name, BodyType bodyType) {
+            this.name = name;
+            this.bodyType = bodyType;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public BodyType getBodyType() {
+            return bodyType;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            if (this == obj) {
+                return true;
+            }
+
+            if ((obj == null) || (obj.getClass() != this.getClass())) {
+                return false;
+            }
+
+            String objectName = ((Key) obj).getName();
+            BodyType objectBodyType = ((Key) obj).getBodyType();
+
+            return ((this.bodyType.equals(objectBodyType)) && (this.name.equals(objectName)));
+        }
+
+        @Override
+        public int hashCode() {
+            return this.name.hashCode() + this.bodyType.hashCode() + 26;
+        }
+
+        @Override
+        public String toString() {
+            return name + ": " + bodyType;
+        }
+    }
+
+    public boolean addSatellite(HeavenlyBody body) {
+        if (body != null) {
+            satellites.add(body);
+            return true;
+        }
+        return false;
     }
 
     public String getName() {
         return name;
+    }
+
+    public Key getKey() {
+        return key;
     }
 
     public double getOrbitalPeriod() {
@@ -34,10 +98,13 @@ public final class HeavenlyBody {
         return new HashSet<>(this.satellites);
     }
 
+    public static Key makeKey(String name, BodyType bodyType) {
+        return new Key(name, bodyType);
+    }
 
     @Override
-    public boolean equals(Object obj) {
-        if(this == obj) {
+    public final boolean equals(Object obj) {
+        if (this == obj) {
             return true;
         }
 
@@ -47,13 +114,18 @@ public final class HeavenlyBody {
             return false;
         }
 
-        String objName = ((HeavenlyBody) obj).getName();
-        return this.name.equals(objName);
+        Key objectKey = ((HeavenlyBody) obj).getKey();
+        return this.key.equals(objectKey);
     }
 
     @Override
-    public int hashCode() {
+    public final int hashCode() {
         System.out.println("hashcode called");
-        return this.name.hashCode() + 57;
+        return this.key.hashCode() + 57;
+    }
+
+    @Override
+    public String toString() {
+        return name + ": " + bodyType + ", " + orbitalPeriod;
     }
 }
