@@ -3,21 +3,21 @@ package pl.jaczewski.m12_collections.collections_final_challenge;
 public class StockItem implements Comparable<StockItem> {
     private final String name;
     private double price;
-    private int quantityStock;
+    private int quantityInStock;
     private int reserved;
 
 
     public StockItem(String name, double price) {
         this.name = name;
         this.price = price;
-        this.quantityStock = 0;
+        this.quantityInStock = 0;
         this.reserved = 0;
     }
 
-    public StockItem(String name, double price, int quantityStock) {
+    public StockItem(String name, double price, int quantityInStock) {
         this.name = name;
         this.price = price;
-        this.quantityStock = quantityStock;
+        this.quantityInStock = quantityInStock;
         this.reserved = 0;
     }
 
@@ -29,8 +29,8 @@ public class StockItem implements Comparable<StockItem> {
         return price;
     }
 
-    public int QuantityInStock() {
-        return quantityStock;
+    public int availableQuantity() {
+        return quantityInStock - reserved;
     }
 
     public void setPrice(double price) {
@@ -39,23 +39,38 @@ public class StockItem implements Comparable<StockItem> {
         }
     }
 
-    public void addReserved(int quantity){
-        if (quantity <= this.quantityStock){
-            this.reserved = quantity;
+    public int addReserved(int quantity) {
+        if (quantity <= availableQuantity()) {
+            this.reserved += quantity;
+            return quantity;
         }
+        return 0;
     }
 
-    public void unreserve(int quantity){
-        this.reserved -= quantity;
+    public int unreserve(int quantity) {
+        if (quantity <= this.reserved) {
+            this.reserved -= quantity;
+            return quantity;
+        }
+        return 0;
     }
 
-    public int adjustStock(int quantity){
-        int newQuantity = this.quantityStock + quantity;
+    public int adjustStock(int quantity) {
+        int newQuantity = this.quantityInStock + quantity;
         if (newQuantity >= 0){
-            return this.quantityStock = newQuantity;
+            return this.quantityInStock = newQuantity;
         } else {
             return 0;
         }
+    }
+
+    public int finaliseStock(int quantity) {
+        if (quantity <= reserved) {
+            quantityInStock -= quantity;
+            reserved -= quantity;
+            return quantity;
+        }
+        return 0;
     }
 
     @Override
@@ -94,6 +109,6 @@ public class StockItem implements Comparable<StockItem> {
 
     @Override
     public String toString() {
-        return this.name + " (price: " + this.price + ")";
+        return this.name + " (price: " + this.price + "). Reserved: " + this.reserved;
     }
 }
