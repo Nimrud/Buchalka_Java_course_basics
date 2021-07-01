@@ -63,5 +63,4 @@ public class Main {
     // NOTE: All fields are private (unless stated otherwise).
     // NOTE: All constructors are public (unless stated otherwise).
     // NOTE: All methods are public (unless stated otherwise).
-
 }

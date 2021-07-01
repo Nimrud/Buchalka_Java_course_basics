@@ -8,29 +8,25 @@ import java.util.HashSet;
 import java.util.Set;
 
 public abstract class HeavenlyBody {
-    private final String name;
     private final Key key;
-    private BodyType bodyType;
     private final double orbitalPeriod;
     private final Set<HeavenlyBody> satellites;
 
-    public HeavenlyBody(String name, BodyType bodyType, double orbitalPeriod) {
-        this.name = name;
-        this.bodyType = bodyType;
+    public HeavenlyBody(String name, double orbitalPeriod, BodyTypes bodyType) {
         this.orbitalPeriod = orbitalPeriod;
         this.satellites = new HashSet<>();
         this.key = new Key(name, bodyType);
     }
 
-    public enum BodyType {
+    public enum BodyTypes {
         PLANET, DWARF_PLANET, MOON
     }
 
     public static final class Key {
         private String name;
-        private BodyType bodyType;
+        private BodyTypes bodyType;
 
-        private Key(String name, BodyType bodyType) {
+        private Key(String name, BodyTypes bodyType) {
             this.name = name;
             this.bodyType = bodyType;
         }
@@ -39,7 +35,7 @@ public abstract class HeavenlyBody {
             return name;
         }
 
-        public BodyType getBodyType() {
+        public BodyTypes getBodyType() {
             return bodyType;
         }
 
@@ -54,9 +50,9 @@ public abstract class HeavenlyBody {
             }
 
             String objectName = ((Key) obj).getName();
-            BodyType objectBodyType = ((Key) obj).getBodyType();
+            BodyTypes objectBodyType = ((Key) obj).getBodyType();
 
-            return ((this.bodyType.equals(objectBodyType)) && (this.name.equals(objectName)));
+            return ((this.bodyType == objectBodyType) && (this.name.equals(objectName)));
         }
 
         @Override
@@ -66,7 +62,7 @@ public abstract class HeavenlyBody {
 
         @Override
         public String toString() {
-            return name + ": " + bodyType;
+            return name + ": " + bodyType.toString();
         }
     }
 
@@ -78,10 +74,6 @@ public abstract class HeavenlyBody {
         return false;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public Key getKey() {
         return key;
     }
@@ -90,15 +82,11 @@ public abstract class HeavenlyBody {
         return orbitalPeriod;
     }
 
-    public boolean addMoon(HeavenlyBody moon) {
-        return this.satellites.add(moon);
-    }
-
     public Set<HeavenlyBody> getSatellites() {
         return new HashSet<>(this.satellites);
     }
 
-    public static Key makeKey(String name, BodyType bodyType) {
+    public static Key makeKey(String name, BodyTypes bodyType) {
         return new Key(name, bodyType);
     }
 
@@ -108,8 +96,6 @@ public abstract class HeavenlyBody {
             return true;
         }
 
-        System.out.println("obj.getClass() is " + obj.getClass());
-        System.out.println("this.getClass() is " + this.getClass());
         if ((obj == null) || (obj.getClass() != this.getClass())) {
             return false;
         }
@@ -120,12 +106,11 @@ public abstract class HeavenlyBody {
 
     @Override
     public final int hashCode() {
-        System.out.println("hashcode called");
-        return this.key.hashCode() + 57;
+        return this.key.hashCode();
     }
 
     @Override
     public String toString() {
-        return name + ": " + bodyType + ", " + orbitalPeriod;
+        return key.getName() + ": " + key.getBodyType().toString() + ", " + orbitalPeriod;
     }
 }
