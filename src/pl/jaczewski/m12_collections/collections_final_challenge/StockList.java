@@ -26,8 +26,7 @@ public class StockList {
     public int reserveItem(String name, int quantity) {
         StockItem inStock = list.get(name);
         if ((inStock != null) && (quantity > 0) && (inStock.availableQuantity() >= quantity)) {
-            inStock.addReserved(quantity);
-            return quantity;
+            return inStock.addReserved(quantity);
         }
         return 0;
     }
@@ -35,8 +34,7 @@ public class StockList {
     public int unReserveItem(String name, int quantity){
         StockItem inStock = list.get(name);
         if ((inStock != null) && (quantity > 0)) {
-            inStock.unreserve(quantity);
-            return quantity;
+            return inStock.unreserve(quantity);
         }
         return 0;
     }
@@ -44,7 +42,7 @@ public class StockList {
     public int sellStock(String name, int quantity) {
         StockItem inStock = list.get(name);
         if ((inStock != null) && (quantity > 0)) {
-            return inStock.adjustStock(-quantity);
+            return inStock.finaliseStock(quantity);
         }
         return 0;
     }

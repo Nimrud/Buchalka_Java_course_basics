@@ -21,6 +21,8 @@ public class Main {
         temp = new StockItem("olives", 5.99, 10);
         stockList.addStock(temp);
 
+        System.out.println(stockList);
+
         Basket myBasket = new Basket("First");
         reserveItem(myBasket, "water", 3);
         reserveItem(myBasket, "chocolate", 38);
@@ -76,6 +78,11 @@ public class Main {
     }
 
     public static void checkout(Basket basket){
+        if (basket.Items().isEmpty()) {
+            System.out.println("Basket " + basket.getName() + " is empty. No items have been purchased.");
+            return;
+        }
+
         for (Map.Entry<StockItem, Integer> item : basket.Items().entrySet()){
             if (stockList.sellStock(item.getKey().getName(), item.getValue()) > 0){
                 System.out.println("=> " + item.getKey().getName() + " purchased.");
